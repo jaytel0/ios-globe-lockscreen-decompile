@@ -1,0 +1,1645 @@
+@protocol CLKUIQuadViewDelegate <NSObject>
+
+@required
+
+/* required instance methods */
+-[CLKUIQuadViewDelegate quadViewWillDisplay:forTime:];
+
+@optional
+
+@end
+
+@protocol CLKUIResourceProviderDelegate <NSObject>
+
+@required
+
+/* required instance methods */
+-[CLKUIResourceProviderDelegate provideAtlasBacking:];
+-[CLKUIResourceProviderDelegate resourceProviderKey];
+
+@optional
+
+@end
+
+@protocol NSObject
+
+@required
+
+@property (TQ,R) hash;
+@property (T#,R) superclass;
+@property (T@"NSString",R,C) description;
+@property (T@"NSString",?,R,C) debugDescription;
+
+/* required instance methods */
+-[NSObject isProxy];
+-[NSObject retainCount];
+-[NSObject hash];
+-[NSObject autorelease];
+-[NSObject description];
+-[NSObject conformsToProtocol:];
+-[NSObject class];
+-[NSObject zone];
+-[NSObject isKindOfClass:];
+-[NSObject superclass];
+-[NSObject respondsToSelector:];
+-[NSObject isMemberOfClass:];
+-[NSObject retain];
+-[NSObject isEqual:];
+-[NSObject release];
+-[NSObject performSelector:];
+-[NSObject performSelector:withObject:];
+-[NSObject performSelector:withObject:withObject:];
+-[NSObject self];
+
+@optional
+
+/* optional instance methods */
+-[NSObject debugDescription];
+
+@end
+
+@protocol NUNIAnimatable <NSObject>
+
+@required
+
+/* required instance methods */
+-[NUNIAnimatable animatedFloatForKey:];
+-[NUNIAnimatable setAnimatedFloat:forKey:];
+
+@optional
+
+@end
+
+@protocol NUNIAnimationObserver
+
+@required
+
+/* required instance methods */
+-[NUNIAnimationObserver astronomyAnimationFinished:];
+
+@optional
+
+@end
+
+@protocol NUNIAstronomyRotationModelObserver
+
+@required
+
+/* required instance methods */
+-[NUNIAstronomyRotationModelObserver rotationModelStoppedByDecelerating:];
+
+@optional
+
+@end
+
+@protocol NUNIFileConverter
+
+@required
+
+/* required instance methods */
+-[NUNIFileConverter combineFilesAt:to:error:];
+-[NUNIFileConverter convertFileAt:to:error:];
+
+@optional
+
+@end
+
+@protocol NUNIRotatable <NSObject>
+
+@required
+
+@property (T@"NUNIScene",R,N) scene;
+@property (T{CLLocationCoordinate2D=dd},N) homeCoordinate;
+@property (T{CLLocationCoordinate2D=dd},N) centerCoordinate;
+
+/* required instance methods */
+-[NUNIRotatable centerCoordinate];
+-[NUNIRotatable scene];
+-[NUNIRotatable setCenterCoordinate:];
+-[NUNIRotatable setCenterCoordinate:animated:];
+-[NUNIRotatable homeCoordinate];
+-[NUNIRotatable setHomeCoordinate:];
+
+@optional
+
+@end
+
+@protocol NUNISceneObserver
+
+@required
+
+/* required instance methods */
+-[NUNISceneObserver astronomySceneAnimationFinished:];
+
+@optional
+
+@end
+
+@protocol OS_dispatch_source <NSObject>
+
+@required
+
+@optional
+
+@end
+
+@protocol OS_dispatch_source_timer <OS_dispatch_source>
+
+@required
+
+@optional
+
+@end
+
+@protocol UIGestureRecognizerDelegate <NSObject>
+
+@required
+
+@optional
+
+/* optional instance methods */
+-[UIGestureRecognizerDelegate gestureRecognizer:shouldReceiveEvent:];
+-[UIGestureRecognizerDelegate gestureRecognizer:shouldReceiveTouch:];
+-[UIGestureRecognizerDelegate gestureRecognizerShouldBegin:];
+-[UIGestureRecognizerDelegate gestureRecognizer:shouldRecognizeSimultaneouslyWithGestureRecognizer:];
+-[UIGestureRecognizerDelegate gestureRecognizer:shouldRequireFailureOfGestureRecognizer:];
+-[UIGestureRecognizerDelegate gestureRecognizer:shouldBeRequiredToFailByGestureRecognizer:];
+-[UIGestureRecognizerDelegate gestureRecognizer:shouldReceivePress:];
+
+@end
+
+@protocol _TtP12NanoUniverse22PreferencePaneDelegate_
+
+@required
+
+/* required instance methods */
+-[_TtP12NanoUniverse22PreferencePaneDelegate_ preferencePaneDidChangeWithPreference:];
+
+@optional
+
+@end
+
+@protocol _TtP12NanoUniverse22PreferencePaneDelegate_
+
+@required
+
+/* required instance methods */
+-[_TtP12NanoUniverse22PreferencePaneDelegate_ preferencePaneDidChangeWithPreference:];
+
+@optional
+
+@end
+
+@interface NUNAegirOffscreen : NSObject {
+    /* instance variables */
+    i _width;
+    i _height;
+    @"MTLRenderPassDescriptor" _renderPassDescriptor;
+}
+
+@property (Ti,N,V_width) width;
+@property (Ti,N,V_height) height;
+@property (T@"<MTLTexture>",&,N) texture0;
+@property (T@"<MTLTexture>",&,N) texture1;
+@property (T@"MTLRenderPassDescriptor",&,N,V_renderPassDescriptor) renderPassDescriptor;
+
+/* instance methods */
+-[NUNAegirOffscreen setWidth:];
+-[NUNAegirOffscreen renderPassDescriptor];
+-[NUNAegirOffscreen setRenderPassDescriptor:];
+-[NUNAegirOffscreen setHeight:];
+-[NUNAegirOffscreen width];
+-[NUNAegirOffscreen height];
+-[NUNAegirOffscreen initWithDevice:width:height:pixelFormat0:pixelFormat1:mipmaps:loadAction:clearColor0:clearColor1:];
+-[NUNAegirOffscreen initWithDevice:width:height:texture0:texture1:loadAction:clearColor0:clearColor1:];
+-[NUNAegirOffscreen setTexture0:];
+-[NUNAegirOffscreen setTexture1:];
+-[NUNAegirOffscreen texture0];
+-[NUNAegirOffscreen texture1];
+
+@end
+
+@interface NUNCalliopeOffscreen : NSObject {
+    /* instance variables */
+    i _width;
+    i _height;
+    @"MTLRenderPassDescriptor" _renderPassDescriptor;
+}
+
+@property (Ti,N,V_width) width;
+@property (Ti,N,V_height) height;
+@property (T@"<MTLTexture>",&,N) texture0;
+@property (T@"<MTLTexture>",&,N) texture1;
+@property (T@"MTLRenderPassDescriptor",&,N,V_renderPassDescriptor) renderPassDescriptor;
+
+/* instance methods */
+-[NUNCalliopeOffscreen setWidth:];
+-[NUNCalliopeOffscreen renderPassDescriptor];
+-[NUNCalliopeOffscreen setRenderPassDescriptor:];
+-[NUNCalliopeOffscreen setHeight:];
+-[NUNCalliopeOffscreen width];
+-[NUNCalliopeOffscreen height];
+-[NUNCalliopeOffscreen initWithDevice:width:height:pixelFormat0:pixelFormat1:mipmaps:loadAction:clearColor0:clearColor1:];
+-[NUNCalliopeOffscreen initWithDevice:width:height:texture0:texture1:loadAction:clearColor0:clearColor1:];
+-[NUNCalliopeOffscreen setTexture0:];
+-[NUNCalliopeOffscreen setTexture1:];
+-[NUNCalliopeOffscreen texture0];
+-[NUNCalliopeOffscreen texture1];
+
+@end
+
+@interface NUNIAegirCloudCoverService : NSObject {
+    /* instance variables */
+    @"_TtC12NanoUniverse22AegirCloudCoverService" _cloudService;
+}
+
+@property (T@"NSURL",&,N) directory;
+
+/* instance methods */
+-[NUNIAegirCloudCoverService directory];
+-[NUNIAegirCloudCoverService setDirectory:];
+-[NUNIAegirCloudCoverService shouldFetchData];
+-[NUNIAegirCloudCoverService initWithImageScale:];
+-[NUNIAegirCloudCoverService retrieveCloudTextureURLs:];
+
+@end
+
+@interface NUNIAegirRenderer : NUNIRenderer {
+    /* instance variables */
+    @"<MTLDevice>" _device;
+    B _supportsMTLGPUFamilyApple6;
+    @"NUNIAegirResourceManager" _resourceManager;
+    @"NUNIAegirTextureGroup" _textureGroup;
+    [3@"NSMutableArray"] _renderUniformsBuffers;
+    [3i] _renderUniformBuffersCounts;
+    [3@"NUNAegirOffscreen"] _offscreenScenes;
+    @"NUNAegirOffscreen" _offscreenBlooms;
+    @"NUNAegirOffscreen" _offscreenPosts;
+    [3@"<MTLTexture>"] _contentMaskTextures;
+    [3@"IOSurface"] _contentMaskSurfaces;
+    @"CALayer" _contentMaskLayer;
+    Q _frame;
+    {NUNIAegirRendererState="viewport"{NUNIViewport="width"i"height"i}"cameraRoll"f"aspect"f"fovY"f"cameraOffset""cameraPosition""cameraTarget""cameraUp""cameraLeft""cameraForward""cameraLookAt"{?="columns"[4]}"cameraView"{?="columns"[4]}"cameraProjView"{?="columns"[4]}} _state;
+    {NUNIAegirRenderUniforms="sprite""sphere""lightDirection""lookModelInverseMatrixFull"{?="columns"[3]}"lookModelPositionFull""lookModelInverseMatrix"{?="columns"[3]}"lookModelPosition""viewModelInverseMatrix"{?="columns"[4]}"viewModelMatrix"{?="columns"[4]}"projectionViewModelMatrix"{?="columns"[4]}"offset""aspect""invResolution"f"nearPlane"f"opacity"f"falloff"f"falloffOverrideOpacity"f"sunExpMin"f"sunExpRange"f"sunDistanceSqr"f"sunEquatorialRadiusSqr"f"sunGlowRadiusScale"f"sunDistance"f"sunEquatorialRadius"f"floorRadiusSqr"f"cloudHiRadiusSqr"f"cloudMdRadiusSqr"f"cloudLoRadiusSqr"f"cloudAltitude"f"cloudAlpha"f"atmosRadiusOuter"f"atmosRadiusInner"f} _baseUniforms;
+    I _rendererOptionsChangeSequence;
+    {NUNIAegirPipelineConstants="bloomRadius" "bloomStrength" "bloomThreshold" "sunDistance" "sunEquatorialRadius" "sunGlowRadiusScale" "sunExpMin" "sunColorRed" "sunColorGreen" "sunColorBlue" "earthLightPower" "earthSpecularPower" "earthSpecularStrength" "earthSpecularBreakup" "earthSurfaceAmbientStrength" "earthIlluminationRed" "earthIlluminationGreen" "earthIlluminationBlue" "earthIlluminationStrength" "earthCloudShadowStrength" "earthCloudShadowEaseFrom" "earthCloudShadowEaseTo" "earthCloudAmbientStrength" "earthCloudAlpha" "earthAtmosphereRed" "earthAtmosphereGreen" "earthAtmosphereBlue" "earthAtmosphereStrength" "earthAtmosphereGlowExpMin" "earthAtmosphereTerminatorEaseFrom" "earthAtmosphereTerminatorEaseTo" "lunaLightPower" "lunaSpecularPower" "lunaSpecularStrength" "lunaSurfaceAmbientStrength" } _pipelineConstants;
+    @"<NUNIRendererOptions>" _rendererOptions;
+}
+
+@property (T@"NUNIAegirResourceManager",R,N,V_resourceManager) resourceManager;
+@property (T@"<NUNIRendererOptions>",&,N,V_rendererOptions) rendererOptions;
+
+/* instance methods */
+-[NUNIAegirRenderer dealloc];
+-[NUNIAegirRenderer discard];
+-[NUNIAegirRenderer resourceManager];
+-[NUNIAegirRenderer rendererOptions];
+-[NUNIAegirRenderer _updateStateWithScene:viewport:];
+-[NUNIAegirRenderer _updateBaseUniformsForViewport:];
+-[NUNIAegirRenderer _renderLocationDot:uniPtr:viewport:renderEncoder:];
+-[NUNIAegirRenderer _renderOffscreenBackgroundWithRenderEncoder:frameBufferIndex:];
+-[NUNIAegirRenderer _renderOffscreenBloomWithScene:viewport:commandBuffer:frameBufferIndex:];
+-[NUNIAegirRenderer _renderOffscreenPostWithScene:viewport:commandBuffer:frameBufferIndex:];
+-[NUNIAegirRenderer _renderOffscreenSceneWithScene:viewport:commandBuffer:frameBufferIndex:drawableTexture:];
+-[NUNIAegirRenderer _renderRaytraceSpheroid:uniPtr:renderEncoder:];
+-[NUNIAegirRenderer _renderSpriteSpheroid:uniPtr:renderEncoder:];
+-[NUNIAegirRenderer contentMaskLayer];
+-[NUNIAegirRenderer getOrCreateUniformBufferforFrameBufferIndex:];
+-[NUNIAegirRenderer initWithPixelFormat:textureSuffix:rendererStyle:];
+-[NUNIAegirRenderer purgeUnusedWithScene:];
+-[NUNIAegirRenderer renderOffscreenWithScene:viewport:commandBuffer:];
+-[NUNIAegirRenderer renderWithScene:viewport:commandBuffer:passDescriptor:];
+-[NUNIAegirRenderer setContentMaskLayer:];
+-[NUNIAegirRenderer setRendererOptions:];
+
+@end
+
+@interface NUNIAegirResourceManager : NSObject <CLKUIResourceProviderDelegate> {
+    /* instance variables */
+    @"<MTLDevice>" _device;
+    @"CLKUIResourceProviderKey" _resourceProviderKey;
+    Q _clients;
+    Q _displayPixelFormat;
+    @"<MTLLibrary>" _library;
+    @"<MTLRenderPipelineState>" _pipelineStateLocationDot;
+    @"<MTLRenderPipelineState>" _pipelineStateThreshold;
+    @"<MTLRenderPipelineState>" _pipelineStatePost;
+    @"<MTLRenderPipelineState>" _pipelineStateDisplay;
+    @"<MTLRenderPipelineState>" _pipelineStateStarfield;
+    @"<MTLRenderPipelineState>" _pipelineStateStar;
+    [24[4@"<MTLRenderPipelineState>"]] _pipelineStateSpheroids;
+    @"<MTLBuffer>" _rectVerticesBuffer;
+    @"<MTLBuffer>" _starVerticesBuffer;
+    @"MTLFunctionConstantValues" _pipelineConstants;
+    @"NSMapTable" _textureGroupHashTable;
+    @"_TtC12NanoUniverse22AegirCloudCoverService" _cloudsService;
+}
+
+@property (T@"_TtC12NanoUniverse22AegirCloudCoverService",R,N,V_cloudsService) cloudsService;
+@property (TQ,R) hash;
+@property (T#,R) superclass;
+@property (T@"NSString",R,C) description;
+@property (T@"NSString",?,R,C) debugDescription;
+
+/* class methods */
++[NUNIAegirResourceManager _deallocInstance:];
++[NUNIAegirResourceManager sharedInstanceWithDisplayPixelFormat:];
+
+/* instance methods */
+-[NUNIAegirResourceManager dealloc];
+-[NUNIAegirResourceManager _deferredCloudDataFetchIfNeeded];
+-[NUNIAegirResourceManager _handleCloudCoverTextureExpired];
+-[NUNIAegirResourceManager _asyncDeallocInstance];
+-[NUNIAegirResourceManager _generatePipelineVshName:fshName:config:blend0:blend1:pixelFormat0:pixelFormat1:];
+-[NUNIAegirResourceManager _loadGeometry];
+-[NUNIAegirResourceManager addClient];
+-[NUNIAegirResourceManager cloudsService];
+-[NUNIAegirResourceManager initWithDisplayPixelFormat:];
+-[NUNIAegirResourceManager provideAtlasBacking:];
+-[NUNIAegirResourceManager purgeAllCloudCoverTextures];
+-[NUNIAegirResourceManager rectVerticesBuffer];
+-[NUNIAegirResourceManager removeClient];
+-[NUNIAegirResourceManager renderDisplayPipeline];
+-[NUNIAegirResourceManager renderOffscreenPipelineForLocationDot];
+-[NUNIAegirResourceManager renderOffscreenPipelineForPost];
+-[NUNIAegirResourceManager renderOffscreenPipelineForSpheroid:config:];
+-[NUNIAegirResourceManager renderOffscreenPipelineForStar];
+-[NUNIAegirResourceManager renderOffscreenPipelineForStarfield];
+-[NUNIAegirResourceManager renderOffscreenPipelineForThreshold];
+-[NUNIAegirResourceManager resourceProviderKey];
+-[NUNIAegirResourceManager setPipelineConstants:];
+-[NUNIAegirResourceManager starVerticesBuffer];
+-[NUNIAegirResourceManager _provideEarthCloudsAtlasBacking:];
+-[NUNIAegirResourceManager textureGroupWithSuffix:];
+
+@end
+
+@interface NUNIAegirTextureGroup : NSObject {
+    /* instance variables */
+    @"NSArray" _albedos;
+    @"NSArray" _normals;
+    @"NSArray" _emissives;
+    @"NSArray" _cloudsLo;
+    @"NSArray" _cloudsMd;
+    @"NSArray" _cloudsHi;
+    @"NSArray" _gradients;
+    @"CLKUITexture" _starfield;
+}
+
+@property (T@"NSArray",&,N,V_albedos) albedos;
+@property (T@"NSArray",&,N,V_normals) normals;
+@property (T@"NSArray",&,N,V_emissives) emissives;
+@property (T@"NSArray",&,N,V_cloudsLo) cloudsLo;
+@property (T@"NSArray",&,N,V_cloudsMd) cloudsMd;
+@property (T@"NSArray",&,N,V_cloudsHi) cloudsHi;
+@property (T@"NSArray",&,N,V_gradients) gradients;
+@property (T@"CLKUITexture",&,N,V_starfield) starfield;
+
+/* instance methods */
+-[NUNIAegirTextureGroup albedos];
+-[NUNIAegirTextureGroup normals];
+-[NUNIAegirTextureGroup cloudsHi];
+-[NUNIAegirTextureGroup cloudsLo];
+-[NUNIAegirTextureGroup cloudsMd];
+-[NUNIAegirTextureGroup emissives];
+-[NUNIAegirTextureGroup gradients];
+-[NUNIAegirTextureGroup setAlbedos:];
+-[NUNIAegirTextureGroup setCloudsHi:];
+-[NUNIAegirTextureGroup setCloudsLo:];
+-[NUNIAegirTextureGroup setCloudsMd:];
+-[NUNIAegirTextureGroup setEmissives:];
+-[NUNIAegirTextureGroup setGradients:];
+-[NUNIAegirTextureGroup setNormals:];
+-[NUNIAegirTextureGroup setStarfield:];
+-[NUNIAegirTextureGroup starfield];
+
+@end
+
+@interface NUNIAnimation : NSObject {
+    /* instance variables */
+     _ctrl1;
+     _ctrl2;
+    [75] _values;
+    i _valuesCount;
+    f _prevTime;
+    f _pauseTime;
+    B _repeat;
+    B _paused;
+    f _startTime;
+    f _duration;
+    f _delay;
+    Q _function;
+    Q _key;
+    @"<NUNIAnimatable>" _animatable;
+    @"<NUNIAnimationObserver>" _observer;
+     _from;
+     _to;
+}
+
+@property (Tf,N,V_startTime) startTime;
+@property (Tf,N,V_duration) duration;
+@property (Tf,N,V_delay) delay;
+@property (T,N,V_from) from;
+@property (T,N,V_to) to;
+@property (TB,N,GisRepeat,V_repeat) repeat;
+@property (TB,N,GisPaused,V_paused) paused;
+@property (TQ,N,V_function) function;
+@property (TQ,N,V_key) key;
+@property (T@"<NUNIAnimatable>",W,N,V_animatable) animatable;
+@property (T@"<NUNIAnimationObserver>",W,N,V_observer) observer;
+
+/* class methods */
++[NUNIAnimation generateSlerpKeys:times:count:from:to:];
+
+/* instance methods */
+-[NUNIAnimation setFrom:];
+-[NUNIAnimation update:];
+-[NUNIAnimation to];
+-[NUNIAnimation setDelay:];
+-[NUNIAnimation from];
+-[NUNIAnimation setObserver:];
+-[NUNIAnimation delay];
+-[NUNIAnimation key];
+-[NUNIAnimation observer];
+-[NUNIAnimation isPaused];
+-[NUNIAnimation setPaused:];
+-[NUNIAnimation function];
+-[NUNIAnimation setStartTime:];
+-[NUNIAnimation setTo:];
+-[NUNIAnimation duration];
+-[NUNIAnimation startTime];
+-[NUNIAnimation setKey:];
+-[NUNIAnimation setFunction:];
+-[NUNIAnimation apply:];
+-[NUNIAnimation setDuration:];
+-[NUNIAnimation initWithAnimatable:from:to:key:];
+-[NUNIAnimation animatable];
+-[NUNIAnimation initWithAnimatable:from:to:ctrl1:ctrl2:key:];
+-[NUNIAnimation initWithAnimatable:value:key:];
+-[NUNIAnimation initWithAnimatable:values:count:key:];
+-[NUNIAnimation isRepeat];
+-[NUNIAnimation setAnimatable:];
+-[NUNIAnimation setRepeat:];
+
+@end
+
+@interface NUNIAstronomyLocationDot : UIView {
+    /* instance variables */
+    @"UIView" _outerDot;
+    @"UIImageView" _innerDotImageView;
+    @"NUNIAstronomyLocationDotConfiguration" _configuration;
+    B _animating;
+    @"UIColor" _outerDotColor;
+    d _outerDotDiameter;
+    @"UIColor" _innerDotColor;
+    d _innerDotDiameter;
+    d _pulseDuration;
+    d _pulseAlphaDelay;
+}
+
+@property (T@"UIColor",&,N,V_outerDotColor) outerDotColor;
+@property (Td,N,V_outerDotDiameter) outerDotDiameter;
+@property (T@"UIColor",&,N,V_innerDotColor) innerDotColor;
+@property (Td,N,V_innerDotDiameter) innerDotDiameter;
+@property (Td,N,V_pulseDuration) pulseDuration;
+@property (Td,N,V_pulseAlphaDelay) pulseAlphaDelay;
+@property (TB,N,V_animating) animating;
+
+/* class methods */
++[NUNIAstronomyLocationDot _defaultColor];
++[NUNIAstronomyLocationDot defaultPulseAlphaDelay];
++[NUNIAstronomyLocationDot defaultPulseDuration];
+
+/* instance methods */
+-[NUNIAstronomyLocationDot startAnimation];
+-[NUNIAstronomyLocationDot initWithConfiguration:];
+-[NUNIAstronomyLocationDot screenScale];
+-[NUNIAstronomyLocationDot innerDotColor];
+-[NUNIAstronomyLocationDot setAnimating:];
+-[NUNIAstronomyLocationDot setInnerDotColor:];
+-[NUNIAstronomyLocationDot pulseDuration];
+-[NUNIAstronomyLocationDot init];
+-[NUNIAstronomyLocationDot animating];
+-[NUNIAstronomyLocationDot layoutSubviews];
+-[NUNIAstronomyLocationDot setPulseDuration:];
+-[NUNIAstronomyLocationDot initWithFrame:configuration:];
+-[NUNIAstronomyLocationDot stopAnimation];
+-[NUNIAstronomyLocationDot pulseAlphaDelay];
+-[NUNIAstronomyLocationDot _generateInnerDotImage];
+-[NUNIAstronomyLocationDot innerDotDiameter];
+-[NUNIAstronomyLocationDot outerDotColor];
+-[NUNIAstronomyLocationDot outerDotDiameter];
+-[NUNIAstronomyLocationDot setInnerDotDiameter:];
+-[NUNIAstronomyLocationDot setOuterDotColor:];
+-[NUNIAstronomyLocationDot setOuterDotDiameter:];
+-[NUNIAstronomyLocationDot setPulseAlphaDelay:];
+-[NUNIAstronomyLocationDot startAnimationWithCompletionBlock:];
+
+@end
+
+@interface NUNIAstronomyLocationDotConfiguration : NSObject {
+    /* instance variables */
+    d _screenScale;
+    d _defaultOuterDotDiameter;
+    d _defaultInnerDotDiameter;
+    {CGSize="width"d"height"d} _defaultSize;
+}
+
+@property (Td,N,V_screenScale) screenScale;
+@property (T{CGSize=dd},N,V_defaultSize) defaultSize;
+@property (Td,N,V_defaultOuterDotDiameter) defaultOuterDotDiameter;
+@property (Td,N,V_defaultInnerDotDiameter) defaultInnerDotDiameter;
+
+/* class methods */
++[NUNIAstronomyLocationDotConfiguration _defaultInnerDotDiameterForDevice:];
++[NUNIAstronomyLocationDotConfiguration _defaultOuterDotDiameterForDevice:];
++[NUNIAstronomyLocationDotConfiguration _defaultSizeForDevice:];
+
+/* instance methods */
+-[NUNIAstronomyLocationDotConfiguration setScreenScale:];
+-[NUNIAstronomyLocationDotConfiguration screenScale];
+-[NUNIAstronomyLocationDotConfiguration init];
+-[NUNIAstronomyLocationDotConfiguration defaultSize];
+-[NUNIAstronomyLocationDotConfiguration setDefaultSize:];
+-[NUNIAstronomyLocationDotConfiguration defaultInnerDotDiameter];
+-[NUNIAstronomyLocationDotConfiguration defaultOuterDotDiameter];
+-[NUNIAstronomyLocationDotConfiguration setDefaultInnerDotDiameter:];
+-[NUNIAstronomyLocationDotConfiguration setDefaultOuterDotDiameter:];
+
+@end
+
+@interface NUNIAstronomyRotationModel : NSObject {
+    /* instance variables */
+    @"CADisplayLink" _displayLink;
+    r^{NUNIAstronomyInteractionSettings=ffff} _interactionSettings;
+    q _state;
+    {CLLocationCoordinate2D="latitude"d"longitude"d} _landingCoordinate;
+     _accumulatedPushVector;
+    f _effectivePushDeceleration;
+    f _effectivePullAcceleration;
+    d _pushStartTime;
+    d _pullStartTime;
+    d _previousDisplayLinkCallbackTime;
+    B _isPulling;
+    B _pulling;
+    @"<NUNIRotatable>" _rotatable;
+    @"<NUNIAstronomyRotationModelObserver>" _observer;
+}
+
+@property (Tr^{NUNIAstronomyInteractionSettings=ffff},R,N,V_interactionSettings) interactionSettings;
+@property (T@"<NUNIRotatable>",W,N,V_rotatable) rotatable;
+@property (T@"<NUNIAstronomyRotationModelObserver>",W,N,V_observer) observer;
+@property (TB,N,GisPulling,V_pulling) pulling;
+
+/* instance methods */
+-[NUNIAstronomyRotationModel push:];
+-[NUNIAstronomyRotationModel setObserver:];
+-[NUNIAstronomyRotationModel _handleDisplayLink];
+-[NUNIAstronomyRotationModel stop];
+-[NUNIAstronomyRotationModel observer];
+-[NUNIAstronomyRotationModel _update];
+-[NUNIAstronomyRotationModel dealloc];
+-[NUNIAstronomyRotationModel init];
+-[NUNIAstronomyRotationModel rotatable];
+-[NUNIAstronomyRotationModel setRotatable:];
+-[NUNIAstronomyRotationModel interactionSettings];
+-[NUNIAstronomyRotationModel isAtHomeCoordinate];
+-[NUNIAstronomyRotationModel isPulling];
+-[NUNIAstronomyRotationModel setPulling:];
+
+@end
+
+@interface NUNIAstronomyVistaConfiguration : NSObject {
+    /* instance variables */
+    B _isRTLLayout;
+    B _isGPUEnabled;
+    f _maxAPL;
+    Q _quadViewOptions;
+    @"NSString" _textureSuffix;
+    Q _rendererStyle;
+    q _colorSpace;
+    @"CLKDevice" _device;
+    d _screenScale;
+    @? _initialSetupOperation;
+}
+
+@property (TB,N,V_isRTLLayout) isRTLLayout;
+@property (TB,N,V_isGPUEnabled) isGPUEnabled;
+@property (TQ,N,V_quadViewOptions) quadViewOptions;
+@property (T@"NSString",C,N,V_textureSuffix) textureSuffix;
+@property (TQ,N,V_rendererStyle) rendererStyle;
+@property (Tq,N,V_colorSpace) colorSpace;
+@property (T@"CLKDevice",&,N,V_device) device;
+@property (Td,N,V_screenScale) screenScale;
+@property (Tf,N,V_maxAPL) maxAPL;
+@property (T@?,C,N,V_initialSetupOperation) initialSetupOperation;
+
+/* class methods */
++[NUNIAstronomyVistaConfiguration defaultConfigurationWithDevice:];
++[NUNIAstronomyVistaConfiguration complicationForgroundColorForVista:];
+
+/* instance methods */
+-[NUNIAstronomyVistaConfiguration setScreenScale:];
+-[NUNIAstronomyVistaConfiguration rendererStyle];
+-[NUNIAstronomyVistaConfiguration screenScale];
+-[NUNIAstronomyVistaConfiguration setDevice:];
+-[NUNIAstronomyVistaConfiguration setColorSpace:];
+-[NUNIAstronomyVistaConfiguration colorSpace];
+-[NUNIAstronomyVistaConfiguration initWithDevice:];
+-[NUNIAstronomyVistaConfiguration device];
+-[NUNIAstronomyVistaConfiguration quadViewOptions];
+-[NUNIAstronomyVistaConfiguration setIsRTLLayout:];
+-[NUNIAstronomyVistaConfiguration initialSetupOperation];
+-[NUNIAstronomyVistaConfiguration isGPUEnabled];
+-[NUNIAstronomyVistaConfiguration isRTLLayout];
+-[NUNIAstronomyVistaConfiguration maxAPL];
+-[NUNIAstronomyVistaConfiguration setInitialSetupOperation:];
+-[NUNIAstronomyVistaConfiguration setIsGPUEnabled:];
+-[NUNIAstronomyVistaConfiguration setMaxAPL:];
+-[NUNIAstronomyVistaConfiguration setQuadViewOptions:];
+-[NUNIAstronomyVistaConfiguration setRendererStyle:];
+-[NUNIAstronomyVistaConfiguration setTextureSuffix:];
+-[NUNIAstronomyVistaConfiguration textureSuffix];
+
+@end
+
+@interface NUNIAstronomyVistaController : NSObject <NUNIAstronomyRotationModelObserver, UIGestureRecognizerDelegate, NUNIAnimationObserver> {
+    /* instance variables */
+    @"NUNIAstronomyVistaView" _vistaView;
+    Q _vista;
+    [11@"NSArray"] _editingVistaAnimations;
+    @"NUNIAstronomyRotationModel" _rotationModel;
+    @"UIPanGestureRecognizer" _spheroidPanGesture;
+    @"UITapGestureRecognizer" _supplementalModeDoubleTapGesture;
+    @"UITapGestureRecognizer" _interactiveModeTapGesture;
+    {CLLocationCoordinate2D="latitude"d"longitude"d} _initialCoordinate;
+    @"CLLocation" _currentLocation;
+     _previousTranslation;
+    f _recentMovement;
+    @"CLKClockTimerToken" _clockTimerToken;
+    B _isFallbackLocation;
+    B _isAnimatingStyleDefinition;
+    B _forceDisableLocationDot;
+    B _isBacklightTransitionEnabled;
+    B _preparedForTransitions;
+    @"<NUNIAstronomyVistaControllerDelegate>" _delegate;
+    q _mode;
+    Q _style;
+    @"<NUNIAstronomyStyleAnimationDelegate>" _styleAnimationDelegate;
+    @"<NUNIAstronomyPulseAnimationDelegate>" _pulseAnimationDelegate;
+    Q _vistaTransitionStyle;
+    q _activeModeFrameInterval;
+    @"NSDate" _overrideDate;
+    d _numberOfPulses;
+    d _pulseAnimationDuration;
+    {NUNIAegirStyleDefinition="orbit"f"cameraOffset""homeCoordinateOffset""cloudOpacity"f} _styleDefinition;
+}
+
+@property (T@"NSDate",&,N,V_overrideDate) overrideDate;
+@property (TB,N,GisPreparedForTransitions,V_preparedForTransitions) preparedForTransitions;
+@property (T@"<NUNIAstronomyVistaControllerDelegate>",W,N,V_delegate) delegate;
+@property (T@"NUNIAstronomyVistaView",R,N) vistaView;
+@property (T@"NUNIAstronomyRotationModel",R,N,V_rotationModel) rotationModel;
+@property (T@"UIPanGestureRecognizer",R,N,V_spheroidPanGesture) spheroidPanGesture;
+@property (T@"UITapGestureRecognizer",R,N,V_supplementalModeDoubleTapGesture) supplementalModeDoubleTapGesture;
+@property (T@"UITapGestureRecognizer",R,N,V_interactiveModeTapGesture) interactiveModeTapGesture;
+@property (Tq,R,N,V_mode) mode;
+@property (TQ,N,V_style) style;
+@property (T{NUNIAegirStyleDefinition=ff},N,V_styleDefinition) styleDefinition;
+@property (T@"<NUNIAstronomyStyleAnimationDelegate>",W,N,V_styleAnimationDelegate) styleAnimationDelegate;
+@property (T@"<NUNIAstronomyPulseAnimationDelegate>",W,N,V_pulseAnimationDelegate) pulseAnimationDelegate;
+@property (TB,N,V_forceDisableLocationDot) forceDisableLocationDot;
+@property (TQ,N,V_vista) vista;
+@property (TQ,N,V_vistaTransitionStyle) vistaTransitionStyle;
+@property (TB,N,V_isBacklightTransitionEnabled) isBacklightTransitionEnabled;
+@property (Tq,N,V_activeModeFrameInterval) activeModeFrameInterval;
+@property (T@"CLLocation",R,N,V_currentLocation) currentLocation;
+@property (Td,N,V_numberOfPulses) numberOfPulses;
+@property (Td,N,V_pulseAnimationDuration) pulseAnimationDuration;
+@property (TQ,R) hash;
+@property (T#,R) superclass;
+@property (T@"NSString",R,C) description;
+@property (T@"NSString",?,R,C) debugDescription;
+
+/* instance methods */
+-[NUNIAstronomyVistaController currentLocation];
+-[NUNIAstronomyVistaController setOverrideDate:];
+-[NUNIAstronomyVistaController overrideDate];
+-[NUNIAstronomyVistaController mode];
+-[NUNIAstronomyVistaController style];
+-[NUNIAstronomyVistaController setStyle:];
+-[NUNIAstronomyVistaController setDelegate:];
+-[NUNIAstronomyVistaController delegate];
+-[NUNIAstronomyVistaController activeMode];
+-[NUNIAstronomyVistaController applyStyle:];
+-[NUNIAstronomyVistaController interactiveMode];
+-[NUNIAstronomyVistaController numberOfPulses];
+-[NUNIAstronomyVistaController setNumberOfPulses:];
+-[NUNIAstronomyVistaController setCacheDirectory:];
+-[NUNIAstronomyVistaController disableCloudDataFetch:];
+-[NUNIAstronomyVistaController rotationModelStoppedByDecelerating:];
+-[NUNIAstronomyVistaController setLocationDotAlpha:];
+-[NUNIAstronomyVistaController setVista:];
+-[NUNIAstronomyVistaController vista];
+-[NUNIAstronomyVistaController rotationModel];
+-[NUNIAstronomyVistaController applyTransitionFraction:fromStyle:toStyle:];
+-[NUNIAstronomyVistaController updateTimeAnimated:];
+-[NUNIAstronomyVistaController _handleSupplementalModeGesture:];
+-[NUNIAstronomyVistaController styleDefinition];
+-[NUNIAstronomyVistaController _animateToStyle:];
+-[NUNIAstronomyVistaController _animateToStyleDefinition:];
+-[NUNIAstronomyVistaController _applyVista:];
+-[NUNIAstronomyVistaController _handleInteractiveModeGesture:];
+-[NUNIAstronomyVistaController _handleSpheroidPanGesture:];
+-[NUNIAstronomyVistaController _updateFrameInterval];
+-[NUNIAstronomyVistaController activeModeFrameInterval];
+-[NUNIAstronomyVistaController animateToStyleDefinition:duration:];
+-[NUNIAstronomyVistaController animateToVista:styleDefinition:duration:];
+-[NUNIAstronomyVistaController animateTransitionToMode:];
+-[NUNIAstronomyVistaController applyMode:];
+-[NUNIAstronomyVistaController applyStyleDefinition:];
+-[NUNIAstronomyVistaController applyTransitionFraction:fromStyleDefinition:toStyleDefinition:];
+-[NUNIAstronomyVistaController applyTransitionFraction:fromVista:fromStyleDefinition:toVista:toStyleDefinition:];
+-[NUNIAstronomyVistaController applyTransitionFraction:fromVista:toVista:];
+-[NUNIAstronomyVistaController astronomyAnimationFinished:];
+-[NUNIAstronomyVistaController cleanUpAfterTransitions];
+-[NUNIAstronomyVistaController deactiveMode];
+-[NUNIAstronomyVistaController forceDisableLocationDot];
+-[NUNIAstronomyVistaController generateAnimationToVista:styleDefinition:];
+-[NUNIAstronomyVistaController hideLocationDotAnimated:];
+-[NUNIAstronomyVistaController hideLocationDotPulse];
+-[NUNIAstronomyVistaController initWithVistaView:];
+-[NUNIAstronomyVistaController interactiveModeTapGesture];
+-[NUNIAstronomyVistaController isBacklightTransitionEnabled];
+-[NUNIAstronomyVistaController isPreparedForTransitions];
+-[NUNIAstronomyVistaController prepareForTransitions];
+-[NUNIAstronomyVistaController pulseAnimationDelegate];
+-[NUNIAstronomyVistaController pulseAnimationDuration];
+-[NUNIAstronomyVistaController pulseLocationDot];
+-[NUNIAstronomyVistaController setActiveModeFrameInterval:];
+-[NUNIAstronomyVistaController setForceDisableLocationDot:];
+-[NUNIAstronomyVistaController setIsBacklightTransitionEnabled:];
+-[NUNIAstronomyVistaController setOverrideDate:animated:];
+-[NUNIAstronomyVistaController setPreparedForTransitions:];
+-[NUNIAstronomyVistaController setPulseAnimationDelegate:];
+-[NUNIAstronomyVistaController setPulseAnimationDuration:];
+-[NUNIAstronomyVistaController setStyleAnimationDelegate:];
+-[NUNIAstronomyVistaController setStyleDefinition:];
+-[NUNIAstronomyVistaController setVistaTransitionStyle:];
+-[NUNIAstronomyVistaController setVistaView:];
+-[NUNIAstronomyVistaController shouldShowLocationDot];
+-[NUNIAstronomyVistaController showLocationDotAnimated:];
+-[NUNIAstronomyVistaController spheroidPanGesture];
+-[NUNIAstronomyVistaController startClockUpdates];
+-[NUNIAstronomyVistaController stopClockUpdates];
+-[NUNIAstronomyVistaController stopLocationDotPulse];
+-[NUNIAstronomyVistaController styleAnimationDelegate];
+-[NUNIAstronomyVistaController supplementalMode];
+-[NUNIAstronomyVistaController supplementalModeDoubleTapGesture];
+-[NUNIAstronomyVistaController updateLocation:fallbackLocation:];
+-[NUNIAstronomyVistaController updateLocation:fallbackLocation:animated:];
+-[NUNIAstronomyVistaController vistaTransitionStyle];
+-[NUNIAstronomyVistaController vistaView];
+
+@end
+
+@interface NUNIAstronomyVistaView : UIView <NUNISceneObserver, CLKUIQuadViewDelegate> {
+    /* instance variables */
+    @"CLKUIQuadView" _quadView0;
+    @"UIView" _quadView1;
+    @"NUNIQuad" _quad;
+    @"NUNIScene" _scene;
+    @"NUNIRenderer" _renderer;
+    Q _preferredCarouselLighting;
+    @"CALayer" _contentMaskLayer;
+    @"CAPortalLayer" _portalLayer;
+    Q _transitionStyle;
+    Q _vista;
+    b1 _isSupplemental;
+    b1 _isDisplayOn;
+    b1 _isAnimating;
+    @"NUNIAstronomyVistaConfiguration" _configuration;
+    f _supplementalSpheroidSize;
+    f _supplementalHorizontalInset;
+    f _supplementalTopInset;
+    f _supplementalBottomInset;
+    @"CLKDevice" _device;
+    @"<NUNIAstronomyVistaViewObserver>" _observer;
+    @"NSArray" _quadViews;
+    q _frameInterval;
+}
+
+@property (T@"CLKDevice",R,N,V_device) device;
+@property (T@"<NUNIAstronomyVistaViewObserver>",W,N,V_observer) observer;
+@property (T@"NUNIScene",&,N) scene;
+@property (T@"NSArray",R,N,V_quadViews) quadViews;
+@property (Tf,N,V_supplementalSpheroidSize) supplementalSpheroidSize;
+@property (Tf,N,V_supplementalHorizontalInset) supplementalHorizontalInset;
+@property (Tf,N,V_supplementalTopInset) supplementalTopInset;
+@property (Tf,N,V_supplementalBottomInset) supplementalBottomInset;
+@property (Tq,N,V_frameInterval) frameInterval;
+@property (TQ,R) hash;
+@property (T#,R) superclass;
+@property (T@"NSString",R,C) description;
+@property (T@"NSString",?,R,C) debugDescription;
+
+/* instance methods */
+-[NUNIAstronomyVistaView setFrameInterval:];
+-[NUNIAstronomyVistaView snapshotImage];
+-[NUNIAstronomyVistaView frameInterval];
+-[NUNIAstronomyVistaView startAnimation];
+-[NUNIAstronomyVistaView setObserver:];
+-[NUNIAstronomyVistaView setOpaque:];
+-[NUNIAstronomyVistaView setScene:];
+-[NUNIAstronomyVistaView observer];
+-[NUNIAstronomyVistaView scene];
+-[NUNIAstronomyVistaView dealloc];
+-[NUNIAstronomyVistaView discardContents];
+-[NUNIAstronomyVistaView layoutSubviews];
+-[NUNIAstronomyVistaView _stopAnimation];
+-[NUNIAstronomyVistaView device];
+-[NUNIAstronomyVistaView _startAnimation];
+-[NUNIAstronomyVistaView initWithFrame:configuration:];
+-[NUNIAstronomyVistaView removeBackBuffers];
+-[NUNIAstronomyVistaView stopAnimation];
+-[NUNIAstronomyVistaView _updateAnimation];
+-[NUNIAstronomyVistaView setCacheDirectory:];
+-[NUNIAstronomyVistaView setSupplementalHorizontalInset:];
+-[NUNIAstronomyVistaView _mtlQuadView];
+-[NUNIAstronomyVistaView _panAnimationArrayFromSceneDescription:toSceneDescription:];
+-[NUNIAstronomyVistaView _zoomAnimationArrayFromSceneDescription:toSceneDescription:];
+-[NUNIAstronomyVistaView computeDimming];
+-[NUNIAstronomyVistaView contentMaskLayer];
+-[NUNIAstronomyVistaView disableCloudDataFetch:];
+-[NUNIAstronomyVistaView generateAnimationArrayFromSceneDescription:toSceneDescription:transitionStyle:];
+-[NUNIAstronomyVistaView generateAnimationArrayFromVista:fromSceneBlock:toVista:toSceneBlock:transitionStyle:];
+-[NUNIAstronomyVistaView generateAnimationArrayFromVista:toVista:transitionStyle:];
+-[NUNIAstronomyVistaView purgeUnused];
+-[NUNIAstronomyVistaView quadViewWillDisplay:forTime:];
+-[NUNIAstronomyVistaView quadViews];
+-[NUNIAstronomyVistaView renderSynchronouslyWithImageQueueDiscard:inGroup:];
+-[NUNIAstronomyVistaView rotatable:];
+-[NUNIAstronomyVistaView setAPLFilterAmount:];
+-[NUNIAstronomyVistaView setSupplementalBottomInset:];
+-[NUNIAstronomyVistaView setSupplementalSpheroidSize:];
+-[NUNIAstronomyVistaView setSupplementalTopInset:];
+-[NUNIAstronomyVistaView setTritiumBrightness:];
+-[NUNIAstronomyVistaView showSupplemental:animated:];
+-[NUNIAstronomyVistaView supplementalBottomInset];
+-[NUNIAstronomyVistaView supplementalHorizontalInset];
+-[NUNIAstronomyVistaView supplementalSpheroidSize];
+-[NUNIAstronomyVistaView supplementalTopInset];
+-[NUNIAstronomyVistaView updateSunLocationAnimated:];
+-[NUNIAstronomyVistaView applyVista:transitionStyle:];
+-[NUNIAstronomyVistaView astronomySceneAnimationFinished:];
+-[NUNIAstronomyVistaView handleBacklightDidTurnOn];
+-[NUNIAstronomyVistaView handleBacklightWillTurnOff];
+-[NUNIAstronomyVistaView spheroidAtPoint:];
+-[NUNIAstronomyVistaView updateLightingPreference:];
+-[NUNIAstronomyVistaView updatePortalLayerBounds:];
+-[NUNIAstronomyVistaView updateSunLocationAnimated:adjustEarthRotation:];
+
+@end
+
+@interface NUNICalliopeRenderer : NUNIRenderer {
+    /* instance variables */
+    @"<MTLDevice>" _device;
+    @"NUNICalliopeResourceManager" _resourceManager;
+    @"NUNICalliopeTextureGroup" _textureGroup;
+    [3@"<MTLBuffer>"] _renderUniformsBuffers;
+    [3{?="current"i"capacity"i}] _renderUniformsBuffersCounts;
+    [3@"NUNCalliopeOffscreen"] _offscreenScenes;
+    @"NUNCalliopeOffscreen" _offscreenBloom;
+    @"NUNCalliopeOffscreen" _offscreenPosts;
+    [3@"<MTLTexture>"] _contentMaskTextures;
+    [3@"IOSurface"] _contentMaskSurfaces;
+    @"CALayer" _contentMaskLayer;
+    {?="texture"@"<MTLTexture>""levels"[16{?="texture"@"<MTLTexture>""numThreadgroups"{?="width"Q"height"Q"depth"Q}}]"numLevels"Q} _bloomChain;
+    B _bloomDownsampleUsingTileShaders;
+    B _bloomEnabled;
+    B _useLowerResolutionTextures;
+    Q _frame;
+    {NUNICalliopeRendererState="viewport"{NUNIViewport="width"i"height"i}"cameraRoll"f"aspect"f"fovY"f"cameraOffset""cameraPosition""cameraTarget""cameraUp""cameraLeft""cameraForward""cameraLookAt"{?="columns"[4]}"cameraView"{?="columns"[4]}"cameraProjView"{?="columns"[4]}} _state;
+    {NUNICalliopeRenderUniforms="vsh"{NUNICalliopeRenderUniforms_vsh=""(?="sprite"""{?="center""axis0""axis1""worldAxis0""worldAxis1""worldLightDirection""cameraForwardDotLight"f}""{?="lightDirection""viewPosition""rotationMatrix"{?="columns"[2]}"offset""aspect""invResolution"f})"projectionViewModelMatrix"{?="columns"[4]}}"fsh"{NUNICalliopeRenderUniforms_fsh="opacity"f"falloff"f"falloffWidth"f"falloffOverrideOpacity"f"sunExpMin"f"sunExpRange"f"sunGlowRadiusScale"f"cloudAlpha"f"bloomStrength"f}} _baseUniforms;
+    {NUNICalliopeRenderUniforms="vsh"{NUNICalliopeRenderUniforms_vsh=""(?="sprite"""{?="center""axis0""axis1""worldAxis0""worldAxis1""worldLightDirection""cameraForwardDotLight"f}""{?="lightDirection""viewPosition""rotationMatrix"{?="columns"[2]}"offset""aspect""invResolution"f})"projectionViewModelMatrix"{?="columns"[4]}}"fsh"{NUNICalliopeRenderUniforms_fsh="opacity"f"falloff"f"falloffWidth"f"falloffOverrideOpacity"f"sunExpMin"f"sunExpRange"f"sunGlowRadiusScale"f"cloudAlpha"f"bloomStrength"f}} _dummyUniforms;
+    I _rendererOptionsChangeSequence;
+    (NUNICalliopePipelineConstants=""{?="bloomRadius" "bloomStrength" "bloomThreshold" "sunDistance" "sunEquatorialRadius" "sunGlowRadiusScale" "sunExpMin" "sunColorRed" "sunColorGreen" "sunColorBlue" "earthLightPower" "earthSpecularPower" "earthSpecularStrength" "earthSpecularBreakup" "earthSurfaceAmbientStrength" "earthIlluminationRed" "earthIlluminationGreen" "earthIlluminationBlue" "earthIlluminationStrength" "earthCloudShadowStrength" "earthCloudShadowEaseFrom" "earthCloudShadowEaseTo" "earthCloudAmbientStrength" "earthCloudAlpha" "earthAtmosphereRed" "earthAtmosphereGreen" "earthAtmosphereBlue" "earthAtmosphereStrength" "earthAtmosphereGlowExpMin" "earthAtmosphereTerminatorEaseFrom" "earthAtmosphereTerminatorEaseTo" "lunaLightPower" "lunaSpecularPower" "lunaSpecularStrength" "lunaSurfaceAmbientStrength" }"values"[35 ]) _pipelineConstants;
+    @"<NUNIRendererOptions>" _rendererOptions;
+}
+
+@property (T@"NUNICalliopeResourceManager",R,N,V_resourceManager) resourceManager;
+@property (T@"<NUNIRendererOptions>",&,N,V_rendererOptions) rendererOptions;
+
+/* instance methods */
+-[NUNICalliopeRenderer dealloc];
+-[NUNICalliopeRenderer discard];
+-[NUNICalliopeRenderer resourceManager];
+-[NUNICalliopeRenderer rendererOptions];
+-[NUNICalliopeRenderer _updateStateWithScene:viewport:];
+-[NUNICalliopeRenderer _updateBaseUniformsForViewport:];
+-[NUNICalliopeRenderer _renderOffscreenBackgroundWithRenderEncoder:frameBufferIndex:];
+-[NUNICalliopeRenderer _renderOffscreenPostWithScene:viewport:commandBuffer:frameBufferIndex:];
+-[NUNICalliopeRenderer contentMaskLayer];
+-[NUNICalliopeRenderer initWithPixelFormat:textureSuffix:rendererStyle:];
+-[NUNICalliopeRenderer purgeUnusedWithScene:];
+-[NUNICalliopeRenderer renderOffscreenWithScene:viewport:commandBuffer:];
+-[NUNICalliopeRenderer renderWithScene:viewport:commandBuffer:passDescriptor:];
+-[NUNICalliopeRenderer setContentMaskLayer:];
+-[NUNICalliopeRenderer setRendererOptions:];
+-[NUNICalliopeRenderer spheroidAtPoint:scene:viewport:];
+-[NUNICalliopeRenderer _computeBloomChainTextures:];
+-[NUNICalliopeRenderer _computePatchSpheroidLodWithPositionInViewSpace:radius:drawableSize:];
+-[NUNICalliopeRenderer _getOrCreateOffscreenBloomWithViewport:];
+-[NUNICalliopeRenderer _renderLocationDot:scene:uniPtr:viewport:renderEncoder:];
+-[NUNICalliopeRenderer _renderOffscreenBloomTextureUsingTileShaderWithViewport:renderEncoder:];
+-[NUNICalliopeRenderer _renderOffscreenBloomTextureWithViewport:sceneTexture:commandBuffer:];
+-[NUNICalliopeRenderer _renderOffscreenSceneWithScene:spheroids:viewport:commandBuffer:frameBufferIndex:drawableTexture:];
+-[NUNICalliopeRenderer _renderPatchSpheroid:frustumCullingState:drawableSize:frameBufferIndex:renderEncoder:];
+-[NUNICalliopeRenderer _renderSaturnRings:frameBufferIndex:renderEncoder:forwardAngle:position:isRotated:rotationMatrix:scale:equatorRotation:];
+-[NUNICalliopeRenderer _renderSpriteSpheroid:frameBufferIndex:renderEncoder:];
+-[NUNICalliopeRenderer _renderSunSprite:frameBufferIndex:renderEncoder:position:scale:opacity:];
+-[NUNICalliopeRenderer _setupBloomChainWithViewport:bloomTexture:];
+-[NUNICalliopeRenderer _updateTextureLODsForPatchSpheroid:uvRate:drawableSize:];
+-[NUNICalliopeRenderer buildFrustumPlane:p2:p3:];
+-[NUNICalliopeRenderer classifyObjectBoundingBoxVersusFrustum:max:withState:];
+-[NUNICalliopeRenderer getUniformsBufferForFrameBufferIndex:pContents:pOffset:];
+-[NUNICalliopeRenderer isObjectBoundingBoxInsideOrIntersectingFrustum:max:withState:];
+-[NUNICalliopeRenderer prepareObjectSpaceFrustumWithTransform:withState:];
+-[NUNICalliopeRenderer prepareWorldSpaceFrustumWithTransform:withState:];
+
+@end
+
+@interface NUNICalliopeResourceManager : NSObject <CLKUIResourceProviderDelegate> {
+    /* instance variables */
+    @"<MTLDevice>" _device;
+    @"CLKUIResourceProviderKey" _resourceProviderKey;
+    Q _clients;
+    Q _displayPixelFormat;
+    @"<MTLLibrary>" _library;
+    @"<MTLRenderPipelineState>" _pipelineStateLocationDot;
+    @"<MTLRenderPipelineState>" _pipelineStatePost;
+    @"<MTLRenderPipelineState>" _pipelineStateDisplay;
+    @"<MTLRenderPipelineState>" _pipelineStateStarfield;
+    @"<MTLRenderPipelineState>" _pipelineStateStar;
+    @"<MTLRenderPipelineState>" _pipelineStateSaturnRing;
+    @"<MTLRenderPipelineState>" _pipelineStateAtmosphere;
+    [2[24[2@"<MTLRenderPipelineState>"]]] _pipelineStateSpheroids;
+    @"<MTLRenderPipelineState>" _pipelineStateDebugDraw;
+    @"<MTLRenderPipelineState>" _pipelineStateForBloomDownsampleUsingTileShader;
+    @"<MTLRenderPipelineState>" _pipelineStateForBloomDownsample;
+    @"<MTLComputePipelineState>" _pipelineStateForBloomChainDownsample;
+    @"<MTLComputePipelineState>" _pipelineStateForBloomChainUpsample;
+    @"<MTLBuffer>" _rectVerticesBuffer;
+    @"<MTLBuffer>" _discVerticesBuffer;
+    @"<MTLBuffer>" _starVerticesBuffer;
+    @"<MTLBuffer>" _atmosphereRingVerticesBuffer;
+    @"<MTLBuffer>" _saturnRingVerticesBuffer;
+    @"<MTLBuffer>" _starfieldVerticesBuffer;
+    @"<MTLBuffer>" _starfieldIndicesBuffer;
+    @"MTLFunctionConstantValues" _pipelineConstants;
+    @"NSMapTable" _textureGroupHashTable;
+    @"_TtC12NanoUniverse22AegirCloudCoverService" _cloudsService;
+    @"<MTLBuffer>" _patchVerticesBuffer;
+    [4@"<MTLBuffer>"] _patchIndicesBuffer;
+    [24[24{?="albedo"@"CLKUITexture""normal"@"CLKUITexture""emissive"@"CLKUITexture""cloud"@"CLKUITexture"}]] _patchTextureGroupTable;
+    [24{?="min""max"}] _patchBoundingBoxes;
+    {?="min""max"} _patchBoundingBoxForSpheroid;
+}
+
+@property (T@"_TtC12NanoUniverse22AegirCloudCoverService",R,N,V_cloudsService) cloudsService;
+@property (TQ,R) hash;
+@property (T#,R) superclass;
+@property (T@"NSString",R,C) description;
+@property (T@"NSString",?,R,C) debugDescription;
+
+/* class methods */
++[NUNICalliopeResourceManager _deallocInstance:];
++[NUNICalliopeResourceManager sharedInstanceWithDisplayPixelFormat:];
+
+/* instance methods */
+-[NUNICalliopeResourceManager dealloc];
+-[NUNICalliopeResourceManager _deferredCloudDataFetchIfNeeded];
+-[NUNICalliopeResourceManager _handleCloudCoverTextureExpired];
+-[NUNICalliopeResourceManager _asyncDeallocInstance];
+-[NUNICalliopeResourceManager _generatePipelineVshName:fshName:config:blend0:blend1:pixelFormat0:pixelFormat1:];
+-[NUNICalliopeResourceManager _loadGeometry];
+-[NUNICalliopeResourceManager addClient];
+-[NUNICalliopeResourceManager cloudsService];
+-[NUNICalliopeResourceManager initWithDisplayPixelFormat:];
+-[NUNICalliopeResourceManager provideAtlasBacking:];
+-[NUNICalliopeResourceManager purgeAllCloudCoverTextures];
+-[NUNICalliopeResourceManager rectVerticesBuffer];
+-[NUNICalliopeResourceManager removeClient];
+-[NUNICalliopeResourceManager renderDisplayPipeline];
+-[NUNICalliopeResourceManager renderOffscreenPipelineForLocationDot];
+-[NUNICalliopeResourceManager renderOffscreenPipelineForPost];
+-[NUNICalliopeResourceManager renderOffscreenPipelineForStar];
+-[NUNICalliopeResourceManager renderOffscreenPipelineForStarfield];
+-[NUNICalliopeResourceManager resourceProviderKey];
+-[NUNICalliopeResourceManager setPipelineConstants:];
+-[NUNICalliopeResourceManager starVerticesBuffer];
+-[NUNICalliopeResourceManager _generatePipelineCshName:];
+-[NUNICalliopeResourceManager _generatePipelineTshName:pixelFormat0:pixelFormat1:];
+-[NUNICalliopeResourceManager _provideEarthCloudsAtlasBacking:];
+-[NUNICalliopeResourceManager atmosphereRingVerticesBuffer];
+-[NUNICalliopeResourceManager computePipelineForBloomChainDownsample];
+-[NUNICalliopeResourceManager computePipelineForBloomChainUpsample];
+-[NUNICalliopeResourceManager discVerticesBuffer];
+-[NUNICalliopeResourceManager patchBoundingBoxForSpheroid];
+-[NUNICalliopeResourceManager patchBoundingBoxes];
+-[NUNICalliopeResourceManager patchIndexCountForLod:];
+-[NUNICalliopeResourceManager patchIndicesBufferForLod:];
+-[NUNICalliopeResourceManager patchTextureGroupForSpheroid:index:suffix:];
+-[NUNICalliopeResourceManager patchVerticesBuffer];
+-[NUNICalliopeResourceManager renderOffscreenPipelineForAtmosphere];
+-[NUNICalliopeResourceManager renderOffscreenPipelineForBloomDownsample];
+-[NUNICalliopeResourceManager renderOffscreenPipelineForBloomDownsampleUsingTileShader];
+-[NUNICalliopeResourceManager renderOffscreenPipelineForDebugDraw];
+-[NUNICalliopeResourceManager renderOffscreenPipelineForSaturnRing];
+-[NUNICalliopeResourceManager renderOffscreenPipelineForSpheroid:layer:config:];
+-[NUNICalliopeResourceManager saturnRingVerticesBuffer];
+-[NUNICalliopeResourceManager starfieldIndicesBuffer];
+-[NUNICalliopeResourceManager starfieldVerticesBuffer];
+-[NUNICalliopeResourceManager textureGroupWithSuffix:];
+
+@end
+
+@interface NUNICalliopeTextureGroup : NSObject {
+    /* instance variables */
+    @"NSArray" _gradients;
+}
+
+@property (T@"NSArray",&,N,V_gradients) gradients;
+
+/* instance methods */
+-[NUNICalliopeTextureGroup gradients];
+-[NUNICalliopeTextureGroup setGradients:];
+
+@end
+
+@interface NUNIClassicGeometry : NSObject {
+    /* instance variables */
+    ^{NUNIClassicVertex=} _vertices;
+    ^S _indices;
+    i _vcount;
+    i _icount;
+}
+
+@property (Tr^{NUNIClassicVertex=},R,N,V_vertices) vertices;
+@property (Tr^S,R,N,V_indices) indices;
+@property (Ti,R,N,V_vcount) vcount;
+@property (Ti,R,N,V_icount) icount;
+
+/* instance methods */
+-[NUNIClassicGeometry indices];
+-[NUNIClassicGeometry dealloc];
+-[NUNIClassicGeometry vertices];
+-[NUNIClassicGeometry addIndices:count:vbase:];
+-[NUNIClassicGeometry addVertices:count:];
+-[NUNIClassicGeometry icount];
+-[NUNIClassicGeometry vcount];
+
+@end
+
+@interface NUNIClassicRenderer : NUNIRenderer {
+    /* instance variables */
+    {NUNIClassicRendererResources="pipelines"[4@"<MTLRenderPipelineState>"]"vertexBuffer"@"<MTLBuffer>""indexBuffer"@"<MTLBuffer>"} _resources;
+    {NUNIClassicGeometryRange="start"i"count"i} _octahedronGeomRange;
+    {NUNIClassicGeometryRange="start"i"count"i} _quadGeomRange;
+    {NUNIClassicRendererState="viewport"{NUNIViewport="width"i"height"i}"projectionType"Q"collectionType"Q"yearsSince1970"f"cameraRoll"f"octGeomRange"{NUNIClassicGeometryRange="start"i"count"i}"quadGeomRange"{NUNIClassicGeometryRange="start"i"count"i}"cameraPosition""cameraTarget""cameraUp""cameraLeft""cameraForward""cameraProj"{?="columns"[4]}"cameraView"{?="columns"[4]}"cameraProjView"{?="columns"[4]}} _state;
+    @"NUNIClassicResourceManager" _resourceManager;
+    @"NUNIClassicTextureGroup" _textureGroup;
+    @"<MTLDevice>" _mtlDevice;
+}
+
+@property (T^{NUNIClassicRendererResources=[4@]@@},R,N) resources;
+@property (T@"NUNIClassicTextureGroup",R,N,V_textureGroup) textureGroup;
+@property (T@"<MTLDevice>",R,N,V_mtlDevice) mtlDevice;
+
+/* instance methods */
+-[NUNIClassicRenderer resources];
+-[NUNIClassicRenderer dealloc];
+-[NUNIClassicRenderer discard];
+-[NUNIClassicRenderer _updateStateWithScene:viewport:];
+-[NUNIClassicRenderer initWithPixelFormat:textureSuffix:rendererStyle:];
+-[NUNIClassicRenderer renderOffscreenWithScene:viewport:commandBuffer:];
+-[NUNIClassicRenderer renderWithScene:viewport:commandBuffer:passDescriptor:];
+-[NUNIClassicRenderer _createPipelineForProgramType:fromLibrary:archive:];
+-[NUNIClassicRenderer _initHemi];
+-[NUNIClassicRenderer _initPrograms];
+-[NUNIClassicRenderer bindAssetArt:renderEncoder:toSlot:];
+-[NUNIClassicRenderer draw3DWithEncoder:state:spheroid:];
+-[NUNIClassicRenderer drawOffscreen3DWithCommandBuffer:state:spheroid:];
+-[NUNIClassicRenderer drawSpriteWithEncoder:state:spheroid:];
+-[NUNIClassicRenderer mtlDevice];
+-[NUNIClassicRenderer textureGroup];
+
+@end
+
+@interface NUNIClassicResourceManager : NSObject <CLKUIResourceProviderDelegate> {
+    /* instance variables */
+    @"<MTLDevice>" _device;
+    @"CLKUIResourceProviderKey" _resourceProviderKey;
+    Q _clients;
+    @"NSMapTable" _textureGroupHashTable;
+}
+
+@property (TQ,R) hash;
+@property (T#,R) superclass;
+@property (T@"NSString",R,C) description;
+@property (T@"NSString",?,R,C) debugDescription;
+
+/* class methods */
++[NUNIClassicResourceManager sharedInstance];
++[NUNIClassicResourceManager _deallocInstance:];
+
+/* instance methods */
+-[NUNIClassicResourceManager dealloc];
+-[NUNIClassicResourceManager init];
+-[NUNIClassicResourceManager _asyncDeallocInstance];
+-[NUNIClassicResourceManager addClient];
+-[NUNIClassicResourceManager provideAtlasBacking:];
+-[NUNIClassicResourceManager removeClient];
+-[NUNIClassicResourceManager resourceProviderKey];
+-[NUNIClassicResourceManager textureGroupWithSuffix:];
+
+@end
+
+@interface NUNIClassicTextureGroup : NSObject {
+    /* instance variables */
+    @"NSArray" _textures;
+}
+
+@property (T@"NSArray",R,N,V_textures) textures;
+
+/* instance methods */
+-[NUNIClassicTextureGroup textures];
+-[NUNIClassicTextureGroup initWithTextures:];
+
+@end
+
+@interface NUNICloudCoverFileConverter : NSObject <NUNIFileConverter> {
+    /* instance variables */
+    @"NSObject<OS_dispatch_queue>" _privateQueue;
+}
+
+/* instance methods */
+-[NUNICloudCoverFileConverter init];
+-[NUNICloudCoverFileConverter _combineFilesAt:to:error:];
+-[NUNICloudCoverFileConverter _convertFileAt:to:error:];
+-[NUNICloudCoverFileConverter combineFilesAt:to:error:];
+-[NUNICloudCoverFileConverter convertFileAt:to:error:];
+
+@end
+
+@interface NUNIGlobetrotterRenderer : NUNIClassicRenderer {
+    /* instance variables */
+    {?="columns"[4]} _globeLinesMatrix;
+    @"CLKUIMetalResourcePool" _globeLineTextureResourcePool;
+    @"<MTLTexture>" _globeLinesCurrentTexture;
+}
+
+/* instance methods */
+-[NUNIGlobetrotterRenderer _createPipelineForProgramType:fromLibrary:archive:];
+-[NUNIGlobetrotterRenderer _initPrograms];
+-[NUNIGlobetrotterRenderer _renderGlobeLinesWithCommandBuffer:state:spheroid:];
+-[NUNIGlobetrotterRenderer draw3DWithEncoder:state:spheroid:];
+-[NUNIGlobetrotterRenderer drawOffscreen3DWithCommandBuffer:state:spheroid:];
+
+@end
+
+@interface NUNIMoonPhaseModel : NSObject {
+    /* instance variables */
+    @"NSDate" _entryDate;
+    @"NSDate" _eventDate;
+    @"CLLocation" _location;
+    @"NSString" _phaseName;
+    Q _phaseNumber;
+    q _hemisphere;
+    q _event;
+}
+
+@property (T@"NSDate",R,N,V_entryDate) entryDate;
+@property (T@"NSDate",R,N,V_eventDate) eventDate;
+@property (T@"CLLocation",R,N,V_location) location;
+@property (T@"NSString",R,N,V_phaseName) phaseName;
+@property (TQ,R,N,V_phaseNumber) phaseNumber;
+@property (Tq,R,N,V_hemisphere) hemisphere;
+@property (Tq,R,N,V_event) event;
+
+/* instance methods */
+-[NUNIMoonPhaseModel location];
+-[NUNIMoonPhaseModel eventDate];
+-[NUNIMoonPhaseModel entryDate];
+-[NUNIMoonPhaseModel event];
+-[NUNIMoonPhaseModel phaseName];
+-[NUNIMoonPhaseModel initWithDate:location:];
+-[NUNIMoonPhaseModel hemisphere];
+-[NUNIMoonPhaseModel phaseNumber];
+
+@end
+
+@interface NUNIPreferencePane : NSObject <_TtP12NanoUniverse22PreferencePaneDelegate_> {
+    /* instance variables */
+    @"_TtC12NanoUniverse14PreferencePane" _preference;
+    @"<NUNIPreferencePaneDelegate>" _delegate;
+}
+
+@property (T@"<NUNIPreferencePaneDelegate>",W,N,V_delegate) delegate;
+
+/* instance methods */
+-[NUNIPreferencePane setDelegate:];
+-[NUNIPreferencePane delegate];
+-[NUNIPreferencePane initWithPreferencePane:];
+-[NUNIPreferencePane initWithSliders:toggles:pickerOptions:pickerSelections:];
+-[NUNIPreferencePane preferencePaneDidChangeWithPreference:];
+
+@end
+
+@interface NUNIQuad : CLKUIQuad {
+    /* instance variables */
+    d _baseTime;
+    @"NUNIRenderer" _renderer;
+    f _screenScale;
+    @"NSObject<OS_dispatch_semaphore>" _renderSemaphore;
+    @"NUNIScene" _scene;
+}
+
+@property (T@"NUNIRenderer",R,N,V_renderer) renderer;
+@property (T@"NUNIScene",&,N,V_scene) scene;
+
+/* instance methods */
+-[NUNIQuad renderer];
+-[NUNIQuad setScene:];
+-[NUNIQuad scene];
+-[NUNIQuad _viewport];
+-[NUNIQuad prepareForTime:];
+-[NUNIQuad initWithScreenScale:renderer:];
+-[NUNIQuad performOffscreenPassesWithCommandBuffer:];
+-[NUNIQuad renderFailedForReason:];
+-[NUNIQuad renderWithCommandBuffer:passDescriptor:];
+-[NUNIQuad setupForQuadView:];
+-[NUNIQuad spheroidAtPoint:];
+
+@end
+
+@interface NUNIRenderer : NSObject {
+    /* instance variables */
+    Q _rendererStyle;
+    Q _pixelFormat;
+    @"NSString" _textureSuffix;
+}
+
+@property (TQ,R,N,V_rendererStyle) rendererStyle;
+@property (TQ,R,N,V_pixelFormat) pixelFormat;
+@property (T@"NSString",R,N,V_textureSuffix) textureSuffix;
+
+/* class methods */
++[NUNIRenderer _deallocInstanceWithPixelFormat:rendererStyle:];
++[NUNIRenderer sharedInstanceWithPixelFormat:textureSuffix:rendererStyle:];
+
+/* instance methods */
+-[NUNIRenderer rendererStyle];
+-[NUNIRenderer dealloc];
+-[NUNIRenderer discard];
+-[NUNIRenderer pixelFormat];
+-[NUNIRenderer _asyncDeallocInstance];
+-[NUNIRenderer initWithPixelFormat:textureSuffix:rendererStyle:];
+-[NUNIRenderer purgeUnusedWithScene:];
+-[NUNIRenderer renderOffscreenWithScene:viewport:commandBuffer:];
+-[NUNIRenderer renderWithScene:viewport:commandBuffer:passDescriptor:];
+-[NUNIRenderer renderWithScene:viewport:renderEncoder:];
+-[NUNIRenderer textureSuffix];
+-[NUNIRenderer spheroidAtPoint:scene:viewport:];
+
+@end
+
+@interface NUNIScene : NSObject <NUNIAnimatable> {
+    /* instance variables */
+    @"NSMutableArray" _spheroids;
+    @"NSMutableArray" _animations;
+    @"NSDate" _date;
+    @? _currentDateBlock;
+    B _isUpdateNeeded;
+    {NUNISceneStructure="cameraPosition""cameraTarget""cameraUp""cameraOrbit"f"cameraRoll"f"snap"Q"backgroundType"Q"collectionType"Q"projectionType"Q"isUpdatable"B"yearsSince1970"f"cameraOffset""offsetCoordinate"(?="vector"""{?="longitude"f"latitude"f})"locationDotAlpha"f"locationDotPulse"f"locationDotPulseOverrideAlpha"f"locationDotMaximumRadius"f} _structure;
+    @"<NUNISceneObserver>" _observer;
+}
+
+@property (T@"<NUNISceneObserver>",W,N,V_observer) observer;
+@property (T@"NSArray",R,C,N,V_spheroids) spheroids;
+@property (T@"NSDate",R,N) date;
+@property (T@?,C,N,V_currentDateBlock) currentDateBlock;
+@property (Tr^{NUNISceneStructure=ffQQQQBf(?={?=ff})ffff},R,N) structure;
+@property (T,R,D,N) cameraPosition;
+@property (T,R,D,N) cameraTarget;
+@property (T,R,D,N) cameraUp;
+@property (Tf,D,N) cameraOrbit;
+@property (Tf,R,D,N) cameraRoll;
+@property (TQ,D,N) snap;
+@property (TQ,D,N) backgroundType;
+@property (TQ,D,N) collectionType;
+@property (TQ,R,D,N) projectionType;
+@property (TB,D,N,GisUpdatable) updatable;
+@property (Tf,R,D,N) yearsSince1970;
+@property (T,D,N) cameraOffset;
+@property (T{CLLocationCoordinate2D=dd},D,N) offsetCoordinate;
+@property (Tf,D,N) locationDotAlpha;
+@property (Tf,D,N) locationDotPulse;
+@property (Tf,D,N) locationDotPulseOverrideAlpha;
+@property (Tf,D,N) locationDotMaximumRadius;
+@property (TQ,R) hash;
+@property (T#,R) superclass;
+@property (T@"NSString",R,C) description;
+@property (T@"NSString",?,R,C) debugDescription;
+
+/* instance methods */
+-[NUNIScene update:];
+-[NUNIScene collectionType];
+-[NUNIScene setObserver:];
+-[NUNIScene setBackgroundType:];
+-[NUNIScene observer];
+-[NUNIScene backgroundType];
+-[NUNIScene addAnimation:];
+-[NUNIScene cameraTarget];
+-[NUNIScene removeAllAnimations];
+-[NUNIScene isUpdatable];
+-[NUNIScene date];
+-[NUNIScene removeAnimation:];
+-[NUNIScene setCollectionType:];
+-[NUNIScene projectionType];
+-[NUNIScene structure];
+-[NUNIScene cameraPosition];
+-[NUNIScene setCameraOrbit:];
+-[NUNIScene spheroidOfType:];
+-[NUNIScene animatedFloatForKey:];
+-[NUNIScene cameraOffset];
+-[NUNIScene cameraOrbit];
+-[NUNIScene cameraRoll];
+-[NUNIScene cameraUp];
+-[NUNIScene currentDateBlock];
+-[NUNIScene initWithSphereoids:currentDateBlock:];
+-[NUNIScene initWithSphereoids:projectionType:currentDateBlock:];
+-[NUNIScene isAnimating:forKeys:];
+-[NUNIScene locationDotAlpha];
+-[NUNIScene locationDotMaximumRadius];
+-[NUNIScene locationDotPulse];
+-[NUNIScene locationDotPulseOverrideAlpha];
+-[NUNIScene offsetCoordinate];
+-[NUNIScene removeAllAnimationsFor:withKeys:];
+-[NUNIScene restingCameraRoll];
+-[NUNIScene setAnimatedFloat:forKey:];
+-[NUNIScene setCamera:target:up:roll:];
+-[NUNIScene setCameraOffset:];
+-[NUNIScene setCurrentDateBlock:];
+-[NUNIScene setLocationDotAlpha:];
+-[NUNIScene setLocationDotMaximumRadius:];
+-[NUNIScene setLocationDotPulse:];
+-[NUNIScene setLocationDotPulseOverrideAlpha:];
+-[NUNIScene setOffsetCoordinate:];
+-[NUNIScene setSnap:];
+-[NUNIScene setUpdatable:];
+-[NUNIScene snap];
+-[NUNIScene spheroids];
+-[NUNIScene updateCamera];
+-[NUNIScene updateFromDateIfNeeded];
+-[NUNIScene yearsSince1970];
+-[NUNIScene unpackFromBlob:];
+-[NUNIScene packIntoBlob];
+-[NUNIScene updateSunLocationAnimated:lightingPreference:adjustEarthRotation:];
+-[NUNIScene updateSunLocationForDate:animated:lightingPreference:adjustEarthRotation:];
+
+@end
+
+@interface NUNISceneUpdateDescription : NSObject {
+    /* instance variables */
+    Q _vista;
+    @? _updateBlock;
+}
+
+@property (TQ,N,V_vista) vista;
+@property (T@?,C,N,V_updateBlock) updateBlock;
+@property (TB,R,N,GisEarth) earth;
+@property (TB,R,N,GisLuna) luna;
+
+/* class methods */
++[NUNISceneUpdateDescription descriptionWithVista:updateBlock:];
+
+/* instance methods */
+-[NUNISceneUpdateDescription setUpdateBlock:];
+-[NUNISceneUpdateDescription updateBlock];
+-[NUNISceneUpdateDescription isEarth];
+-[NUNISceneUpdateDescription initWithVista:updateBlock:];
+-[NUNISceneUpdateDescription isLuna];
+-[NUNISceneUpdateDescription setVista:];
+-[NUNISceneUpdateDescription vista];
+
+@end
+
+@interface NUNISpheroid : NSObject <NUNIAnimatable, NUNIRotatable> {
+    /* instance variables */
+    {NUNISpheroidStructure="type"Q"distance"f"distanceScale"f"angle"f"equatorRotation"f"orientation"{?="vector"}"opacity"f"cloudOpacity"f"colorize""blend"f"radius"f"radiusScale"f"position""light""programType"Q"spriteType"Q"homeCoordinate"(?="vector"""{?="longitude"f"latitude"f})"centerCoordinate"(?="vector"""{?="longitude"f"latitude"f})"isVisible"B"isFacing"B} _structure;
+    @"NUNIScene" _scene;
+    @"NUNISpheroid" _parent;
+}
+
+@property (T@"NUNIScene",R,W,N,V_scene) scene;
+@property (T@"NUNISpheroid",R,N,V_parent) parent;
+@property (Tr^{NUNISpheroidStructure=Qffff{?=}fffffQQ(?={?=ff})(?={?=ff})BB},R,D,N) structure;
+@property (TQ,R,D,N) type;
+@property (Tf,D,N) distance;
+@property (Tf,D,N) distanceScale;
+@property (Tf,D,N) angle;
+@property (Tf,D,N) equatorRotation;
+@property (Tf,D,N) opacity;
+@property (Tf,D,N) cloudOpacity;
+@property (T,D,N) colorize;
+@property (T{?=},D,N) orientation;
+@property (Tf,R,D,N) blend;
+@property (Tf,R,D,N) radius;
+@property (Tf,D,N) radiusScale;
+@property (T,R,D,N) position;
+@property (T,R,D,N) light;
+@property (TQ,R,D,N) programType;
+@property (TQ,D,N) spriteType;
+@property (TB,N,GisVisible) visible;
+@property (TB,D,N,GisFacing) facing;
+@property (T{CLLocationCoordinate2D=dd},D,N) homeCoordinate;
+@property (T{CLLocationCoordinate2D=dd},D,N) centerCoordinate;
+@property (TQ,R) hash;
+@property (T#,R) superclass;
+@property (T@"NSString",R,C) description;
+@property (T@"NSString",?,R,C) debugDescription;
+
+/* instance methods */
+-[NUNISpheroid setDistance:];
+-[NUNISpheroid angle];
+-[NUNISpheroid radius];
+-[NUNISpheroid parent];
+-[NUNISpheroid distance];
+-[NUNISpheroid position];
+-[NUNISpheroid type];
+-[NUNISpheroid centerCoordinate];
+-[NUNISpheroid setVisible:];
+-[NUNISpheroid scene];
+-[NUNISpheroid orientation];
+-[NUNISpheroid opacity];
+-[NUNISpheroid setOrientation:];
+-[NUNISpheroid isVisible];
+-[NUNISpheroid setAngle:];
+-[NUNISpheroid setCenterCoordinate:];
+-[NUNISpheroid setOpacity:];
+-[NUNISpheroid structure];
+-[NUNISpheroid setCenterCoordinate:animated:];
+-[NUNISpheroid light];
+-[NUNISpheroid blend];
+-[NUNISpheroid equatorRotation];
+-[NUNISpheroid setRadiusScale:];
+-[NUNISpheroid _updateCamera];
+-[NUNISpheroid _updatePositionFromAngle];
+-[NUNISpheroid animatedFloatForKey:];
+-[NUNISpheroid cloudOpacity];
+-[NUNISpheroid colorize];
+-[NUNISpheroid date:toCameraPosition:toCameraTarget:];
+-[NUNISpheroid distanceScale];
+-[NUNISpheroid homeCoordinate];
+-[NUNISpheroid initWithScene:parent:type:];
+-[NUNISpheroid isFacing];
+-[NUNISpheroid programType];
+-[NUNISpheroid radiusScale];
+-[NUNISpheroid setAnimatedFloat:forKey:];
+-[NUNISpheroid setCloudOpacity:];
+-[NUNISpheroid setColorize:];
+-[NUNISpheroid setDistanceScale:];
+-[NUNISpheroid setEquatorRotation:];
+-[NUNISpheroid setFacing:];
+-[NUNISpheroid setHomeCoordinate:];
+-[NUNISpheroid spriteType];
+-[NUNISpheroid updateSunLocationForDate:lightingPreference:adjustEarthRotation:];
+
+@end
+
+@interface _TtC12NanoUniverse14PreferencePane : NSObject <_TtP12NanoUniverse22PreferencePaneDelegate_> {
+    /* instance variables */
+    Combine.Published _$sSS _name;
+    Combine.Published _$sySa -> NanoUniverse.PreferencePane ? _panes;
+    Swift.UInt32 changeSequence;
+    _$sSaySSG sliders;
+    _$sSaySSG toggles;
+    _$sSaySSG pickersSelections;
+    _$sSDySSSdG defaultSliders;
+    _$sSDySSSbG defaultToggles;
+    _$sSDyS2SG defaultPickersSelections;
+    _$sSDySSSaySSGGSg pickerOptions;
+    (objc_protocol 0x292a0cc80) ? delegate;
+    _$sSo14NSUserDefaultsCSg userDefaults;
+}
+
+@property (T@"NSString",N,C) name;
+@property (T@"NSArray",N,C) panes;
+@property (TI,N,VchangeSequence) changeSequence;
+@property (T@"NSArray",N,C) sliders;
+@property (T@"NSArray",N,C) toggles;
+@property (T@"NSArray",N,C) pickersSelections;
+@property (T@"NSDictionary",N,C) defaultSliders;
+@property (T@"NSDictionary",N,C) defaultToggles;
+@property (T@"NSDictionary",N,C) defaultPickersSelections;
+@property (T@"NSDictionary",N,C) pickerOptions;
+@property (T@"<_TtP12NanoUniverse22PreferencePaneDelegate_>",N,W,Vdelegate) delegate;
+
+/* class methods */
++[_TtC12NanoUniverse14PreferencePane calliopeRenderingPreferencePane];
++[_TtC12NanoUniverse14PreferencePane aegirRenderingPreferencePane];
+
+/* instance methods */
+-[_TtC12NanoUniverse14PreferencePane reset];
+-[_TtC12NanoUniverse14PreferencePane setName:];
+-[_TtC12NanoUniverse14PreferencePane name];
+-[_TtC12NanoUniverse14PreferencePane init];
+-[_TtC12NanoUniverse14PreferencePane setDelegate:];
+-[_TtC12NanoUniverse14PreferencePane getValueForKey:];
+-[_TtC12NanoUniverse14PreferencePane delegate];
+-[_TtC12NanoUniverse14PreferencePane sliders];
+-[_TtC12NanoUniverse14PreferencePane toggles];
+-[_TtC12NanoUniverse14PreferencePane changeSequence];
+-[_TtC12NanoUniverse14PreferencePane defaultPickersSelections];
+-[_TtC12NanoUniverse14PreferencePane defaultSliders];
+-[_TtC12NanoUniverse14PreferencePane defaultToggles];
+-[_TtC12NanoUniverse14PreferencePane fractionValueForOption:];
+-[_TtC12NanoUniverse14PreferencePane initWithName:panes:];
+-[_TtC12NanoUniverse14PreferencePane initWithName:userDefaults:sliders:toggles:pickerOptions:pickerSelections:];
+-[_TtC12NanoUniverse14PreferencePane panes];
+-[_TtC12NanoUniverse14PreferencePane pickerOptions];
+-[_TtC12NanoUniverse14PreferencePane pickersSelections];
+-[_TtC12NanoUniverse14PreferencePane preferencePaneDidChangeWithPreference:];
+-[_TtC12NanoUniverse14PreferencePane set:forKey:];
+-[_TtC12NanoUniverse14PreferencePane setChangeSequence:];
+-[_TtC12NanoUniverse14PreferencePane setDefaultPickersSelections:];
+-[_TtC12NanoUniverse14PreferencePane setDefaultSliders:];
+-[_TtC12NanoUniverse14PreferencePane setDefaultToggles:];
+-[_TtC12NanoUniverse14PreferencePane setPanes:];
+-[_TtC12NanoUniverse14PreferencePane setPickerOptions:];
+-[_TtC12NanoUniverse14PreferencePane setPickersSelections:];
+-[_TtC12NanoUniverse14PreferencePane setSliders:];
+-[_TtC12NanoUniverse14PreferencePane setToggles:];
+
+@end
+
+@interface _TtC12NanoUniverse19AegirAuthentication : _TtCs12_SwiftObject {
+    /* instance variables */
+    WeatherDaemon.WDSAuthenticator authenticator;
+}
+
+@end
+
+@interface _TtC12NanoUniverse22AegirCloudCoverService : NSObject {
+    /* instance variables */
+    (objc_protocol 0x292a0d298) ? fileConverter;
+    Swift.Bool disableFetch;
+    Foundation.URL directory;
+    NanoUniverse.AegirCloudCoverService.Configuration configuration;
+    _$sSd refreshTimeIntervalInSeconds;
+    _$sSf imageScale;
+    DispatchQueue privateQueue;
+    _$sSd startBackoffInterval;
+    _$sSd maxBackoffInterval;
+    (objc_protocol 0x292a0d2a0) ? dispatchSourceTimer;
+    _$sSh -> NanoUniverse.AegirCloudCoverService.CloudLevel operationsInProgress;
+    _$sSdSg backoffInterval;
+    _$sSo12NSURLSessionCSg session;
+    NanoUniverse.AegirAuthentication authenticator;
+}
+
+@property (T@"NSArray",N,R) allCloudLevelFileNames;
+@property (T@"<NUNIFileConverter>",N,&,VfileConverter) fileConverter;
+@property (TB,N,VdisableFetch) disableFetch;
+@property (T@"NSURL",N,C) directory;
+@property (TB,N,R) canFetchData;
+
+/* class methods */
++[_TtC12NanoUniverse22AegirCloudCoverService cloudLevelHighFileName];
++[_TtC12NanoUniverse22AegirCloudCoverService cloudLevelLowFileName];
++[_TtC12NanoUniverse22AegirCloudCoverService cloudLevelMidFileName];
++[_TtC12NanoUniverse22AegirCloudCoverService cloudLevelPrefix];
+
+/* instance methods */
+-[_TtC12NanoUniverse22AegirCloudCoverService directory];
+-[_TtC12NanoUniverse22AegirCloudCoverService init];
+-[_TtC12NanoUniverse22AegirCloudCoverService setDirectory:];
+-[_TtC12NanoUniverse22AegirCloudCoverService allCloudLevelFileNames];
+-[_TtC12NanoUniverse22AegirCloudCoverService canFetchData];
+-[_TtC12NanoUniverse22AegirCloudCoverService cloudTextureURLs];
+-[_TtC12NanoUniverse22AegirCloudCoverService currentURLForCloudLevelWith:];
+-[_TtC12NanoUniverse22AegirCloudCoverService disableFetch];
+-[_TtC12NanoUniverse22AegirCloudCoverService fileConverter];
+-[_TtC12NanoUniverse22AegirCloudCoverService initWithImageScale:];
+-[_TtC12NanoUniverse22AegirCloudCoverService retrieveCloudTextureURLsWithNotifyOn:completionHandler:];
+-[_TtC12NanoUniverse22AegirCloudCoverService setDisableFetch:];
+-[_TtC12NanoUniverse22AegirCloudCoverService setFileConverter:];
+-[_TtC12NanoUniverse22AegirCloudCoverService urlForCloudLevelWith:];
+
+@end
+
+@interface _TtC12NanoUniverseP33_56FF90A4576BBB6563A0A400203BD4F019ResourceBundleClass : _TtCs12_SwiftObject
+
+@end
+

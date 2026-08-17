@@ -1,0 +1,18 @@
+# build products
+app/build/
+app/*.xcodeproj/
+DerivedData/
+.DS_Store
+
+# huge intermediates — regenerate with tools/ (see LEARNINGS.md)
+*.ipsw
+*.aea
+*.dmg
+*.mtree
+kernel.macho
+mtree.bin
+venv/
+
+# Apple's Earth textures, extracted from firmware — not ours to redistribute.
+# Regenerate locally with: python tools/make_assets.py
+app/Resources/

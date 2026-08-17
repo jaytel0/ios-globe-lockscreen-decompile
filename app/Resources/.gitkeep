@@ -1,0 +1,5 @@
+Earth cube-map textures belong here (earth_albedo_0..5.png, earth_relief_*,
+earth_lights_*, earth_water_*, earth_cloud_*).
+
+They are Apple's assets, extracted from firmware, and are deliberately not
+committed. Regenerate from an IPSW with: python tools/make_assets.py

@@ -1,0 +1,933 @@
+[
+ {
+  "name": "094-12894-174.dmg.aea",
+  "method": 0,
+  "csize": 247463936,
+  "usize": 247463936,
+  "lho": 0
+ },
+ {
+  "name": "094-13460-165.dmg.aea",
+  "method": 0,
+  "csize": 163577856,
+  "usize": 163577856,
+  "lho": 247464007
+ },
+ {
+  "name": "094-13724-183.dmg",
+  "method": 8,
+  "csize": 7538287,
+  "usize": 14680064,
+  "lho": 411041934
+ },
+ {
+  "name": "094-13753-182.dmg",
+  "method": 8,
+  "csize": 185711130,
+  "usize": 241172507,
+  "lho": 418580288
+ },
+ {
+  "name": "094-14091-180.dmg",
+  "method": 8,
+  "csize": 187843476,
+  "usize": 243269659,
+  "lho": 604291485
+ },
+ {
+  "name": "094-14311-130.dmg.aea",
+  "method": 0,
+  "csize": 2348810240,
+  "usize": 2348810240,
+  "lho": 792135028
+ },
+ {
+  "name": "094-14934-126.dmg.aea",
+  "method": 0,
+  "csize": 8858370048,
+  "usize": 8858370048,
+  "lho": 3140945339
+ },
+ {
+  "name": "BuildManifest.plist",
+  "method": 8,
+  "csize": 30089,
+  "usize": 468869,
+  "lho": 11999315458
+ },
+ {
+  "name": "Firmware/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 11999345616
+ },
+ {
+  "name": "Firmware/094-12894-174.dmg.aea.mtree",
+  "method": 8,
+  "csize": 1696834,
+  "usize": 1711615,
+  "lho": 11999345675
+ },
+ {
+  "name": "Firmware/094-12894-174.dmg.aea.root_hash",
+  "method": 8,
+  "csize": 139,
+  "usize": 229,
+  "lho": 12001042595
+ },
+ {
+  "name": "Firmware/094-12894-174.dmg.aea.trustcache",
+  "method": 8,
+  "csize": 7339,
+  "usize": 8015,
+  "lho": 12001042824
+ },
+ {
+  "name": "Firmware/094-13460-165.dmg.aea.integrity_catalog",
+  "method": 8,
+  "csize": 471809,
+  "usize": 958633,
+  "lho": 12001050254
+ },
+ {
+  "name": "Firmware/094-13460-165.dmg.aea.root_hash",
+  "method": 8,
+  "csize": 69,
+  "usize": 229,
+  "lho": 12001522161
+ },
+ {
+  "name": "Firmware/094-13460-165.dmg.aea.trustcache",
+  "method": 8,
+  "csize": 1526,
+  "usize": 1521,
+  "lho": 12001522320
+ },
+ {
+  "name": "Firmware/094-13724-183.dmg.root_hash",
+  "method": 8,
+  "csize": 68,
+  "usize": 229,
+  "lho": 12001523937
+ },
+ {
+  "name": "Firmware/094-13724-183.dmg.trustcache",
+  "method": 8,
+  "csize": 445,
+  "usize": 455,
+  "lho": 12001524091
+ },
+ {
+  "name": "Firmware/094-13753-182.dmg.trustcache",
+  "method": 8,
+  "csize": 7978,
+  "usize": 8231,
+  "lho": 12001524623
+ },
+ {
+  "name": "Firmware/094-14091-180.dmg.trustcache",
+  "method": 8,
+  "csize": 8126,
+  "usize": 8385,
+  "lho": 12001532688
+ },
+ {
+  "name": "Firmware/094-14311-130.dmg.aea.root_hash",
+  "method": 8,
+  "csize": 68,
+  "usize": 229,
+  "lho": 12001540901
+ },
+ {
+  "name": "Firmware/094-14311-130.dmg.aea.trustcache",
+  "method": 8,
+  "csize": 2901,
+  "usize": 3167,
+  "lho": 12001541059
+ },
+ {
+  "name": "Firmware/094-14934-126.dmg.aea.mtree",
+  "method": 8,
+  "csize": 38746752,
+  "usize": 39309382,
+  "lho": 12001544051
+ },
+ {
+  "name": "Firmware/094-14934-126.dmg.aea.root_hash",
+  "method": 8,
+  "csize": 139,
+  "usize": 229,
+  "lho": 12040290889
+ },
+ {
+  "name": "Firmware/094-14934-126.dmg.aea.trustcache",
+  "method": 8,
+  "csize": 82951,
+  "usize": 91609,
+  "lho": 12040291118
+ },
+ {
+  "name": "Firmware/AOP/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12040374160
+ },
+ {
+  "name": "Firmware/AOP/aopfw-iphone17aop.RELEASE.im4p",
+  "method": 8,
+  "csize": 1558035,
+  "usize": 4997145,
+  "lho": 12040374223
+ },
+ {
+  "name": "Firmware/AOP2/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12041932351
+ },
+ {
+  "name": "Firmware/AOP2/aop2fw-iphone17aop2.RELEASE.im4p",
+  "method": 8,
+  "csize": 890516,
+  "usize": 6488089,
+  "lho": 12041932415
+ },
+ {
+  "name": "Firmware/Ace3/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12042823027
+ },
+ {
+  "name": "Firmware/Ace3/d9x/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12042823091
+ },
+ {
+  "name": "Firmware/Ace3/d9x/usbcfw_d9x.uarp",
+  "method": 8,
+  "csize": 93943,
+  "usize": 154553,
+  "lho": 12042823159
+ },
+ {
+  "name": "Firmware/AppleLPM/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12042917185
+ },
+ {
+  "name": "Firmware/AppleLPM/AppleLPM.d93.release.im4p",
+  "method": 8,
+  "csize": 863277,
+  "usize": 1269913,
+  "lho": 12042917253
+ },
+ {
+  "name": "Firmware/Brunor/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12043780623
+ },
+ {
+  "name": "Firmware/Brunor/Savage.B0-Dev.fw",
+  "method": 8,
+  "csize": 119,
+  "usize": 114,
+  "lho": 12043780689
+ },
+ {
+  "name": "Firmware/Brunor/Savage.B0-Dev.fw.plist",
+  "method": 8,
+  "csize": 242,
+  "usize": 323,
+  "lho": 12043780890
+ },
+ {
+  "name": "Firmware/Brunor/Savage.B0-Prod.fw",
+  "method": 8,
+  "csize": 119,
+  "usize": 114,
+  "lho": 12043781220
+ },
+ {
+  "name": "Firmware/Brunor/Savage.B0-Prod.fw.plist",
+  "method": 8,
+  "csize": 243,
+  "usize": 324,
+  "lho": 12043781422
+ },
+ {
+  "name": "Firmware/Brunor/Savage.B2-Dev.fw",
+  "method": 8,
+  "csize": 37,
+  "usize": 34,
+  "lho": 12043781754
+ },
+ {
+  "name": "Firmware/Brunor/Savage.B2-Dev.fw.plist",
+  "method": 8,
+  "csize": 243,
+  "usize": 323,
+  "lho": 12043781873
+ },
+ {
+  "name": "Firmware/Brunor/Savage.B2-Prod.fw",
+  "method": 8,
+  "csize": 39,
+  "usize": 34,
+  "lho": 12043782204
+ },
+ {
+  "name": "Firmware/Brunor/Savage.B2-Prod.fw.plist",
+  "method": 8,
+  "csize": 242,
+  "usize": 324,
+  "lho": 12043782326
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BA-Dev.fw",
+  "method": 8,
+  "csize": 37,
+  "usize": 34,
+  "lho": 12043782657
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BA-Dev.fw.plist",
+  "method": 8,
+  "csize": 243,
+  "usize": 323,
+  "lho": 12043782776
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BA-Prod.fw",
+  "method": 8,
+  "csize": 39,
+  "usize": 34,
+  "lho": 12043783107
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BA-Prod.fw.plist",
+  "method": 8,
+  "csize": 242,
+  "usize": 324,
+  "lho": 12043783229
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BE-Dev.fw",
+  "method": 8,
+  "csize": 37,
+  "usize": 34,
+  "lho": 12043783560
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BE-Dev.fw.plist",
+  "method": 8,
+  "csize": 243,
+  "usize": 323,
+  "lho": 12043783679
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BE-Prod.fw",
+  "method": 8,
+  "csize": 39,
+  "usize": 34,
+  "lho": 12043784010
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BE-Prod.fw.plist",
+  "method": 8,
+  "csize": 241,
+  "usize": 324,
+  "lho": 12043784132
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BF-Dev.fw",
+  "method": 8,
+  "csize": 119,
+  "usize": 114,
+  "lho": 12043784462
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BF-Dev.fw.plist",
+  "method": 8,
+  "csize": 242,
+  "usize": 323,
+  "lho": 12043784663
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BF-Prod.fw",
+  "method": 8,
+  "csize": 119,
+  "usize": 114,
+  "lho": 12043784993
+ },
+ {
+  "name": "Firmware/Brunor/Savage.BF-Prod.fw.plist",
+  "method": 8,
+  "csize": 243,
+  "usize": 324,
+  "lho": 12043785195
+ },
+ {
+  "name": "Firmware/D93_LeapHapticsFirmware.im4p",
+  "method": 8,
+  "csize": 44772,
+  "usize": 253195,
+  "lho": 12043785527
+ },
+ {
+  "name": "Firmware/D93_MtpFirmware.im4p",
+  "method": 8,
+  "csize": 1683988,
+  "usize": 9950599,
+  "lho": 12043830386
+ },
+ {
+  "name": "Firmware/D93_Multitouch.im4p",
+  "method": 8,
+  "csize": 495280,
+  "usize": 1270457,
+  "lho": 12045514453
+ },
+ {
+  "name": "Firmware/M3/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12046009811
+ },
+ {
+  "name": "Firmware/M3/bin/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12046009873
+ },
+ {
+  "name": "Firmware/M3/bin/securem3fw-d9x.im4p",
+  "method": 8,
+  "csize": 64692,
+  "usize": 105941,
+  "lho": 12046009939
+ },
+ {
+  "name": "Firmware/Mav24-3.02.02.Release.bbfw",
+  "method": 8,
+  "csize": 113976485,
+  "usize": 114158255,
+  "lho": 12046074716
+ },
+ {
+  "name": "Firmware/Mav24-3.02.02.Release.plist",
+  "method": 8,
+  "csize": 1344,
+  "usize": 2507,
+  "lho": 12160051286
+ },
+ {
+  "name": "Firmware/Rose/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12160052716
+ },
+ {
+  "name": "Firmware/Rose/r2p1/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12160052780
+ },
+ {
+  "name": "Firmware/Rose/r2p1/ftab.bin",
+  "method": 8,
+  "csize": 548979,
+  "usize": 1069076,
+  "lho": 12160052849
+ },
+ {
+  "name": "Firmware/SE/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12160601905
+ },
+ {
+  "name": "Firmware/SE/StockholmE.RELEASE.sefw",
+  "method": 8,
+  "csize": 13414256,
+  "usize": 13420343,
+  "lho": 12160601967
+ },
+ {
+  "name": "Firmware/SE/StockholmE.RELEASE.sefw.plist",
+  "method": 8,
+  "csize": 163,
+  "usize": 205,
+  "lho": 12174016308
+ },
+ {
+  "name": "Firmware/SmartIOFirmware_ASCv7.im4p",
+  "method": 8,
+  "csize": 71618,
+  "usize": 1140621,
+  "lho": 12174016562
+ },
+ {
+  "name": "Firmware/Sumter/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12174088265
+ },
+ {
+  "name": "Firmware/Sumter/Yonkers,SysTopPatch0",
+  "method": 8,
+  "csize": 781,
+  "usize": 776,
+  "lho": 12174088331
+ },
+ {
+  "name": "Firmware/Sumter/Yonkers,SysTopPatch0.plist",
+  "method": 8,
+  "csize": 313,
+  "usize": 1054,
+  "lho": 12174089198
+ },
+ {
+  "name": "Firmware/Sumter/Yonkers,SysTopPatch1",
+  "method": 8,
+  "csize": 781,
+  "usize": 776,
+  "lho": 12174089603
+ },
+ {
+  "name": "Firmware/Sumter/Yonkers,SysTopPatch1.plist",
+  "method": 8,
+  "csize": 313,
+  "usize": 1050,
+  "lho": 12174090470
+ },
+ {
+  "name": "Firmware/Sumter/Yonkers,SysTopPatch8",
+  "method": 8,
+  "csize": 781,
+  "usize": 776,
+  "lho": 12174090875
+ },
+ {
+  "name": "Firmware/Sumter/Yonkers,SysTopPatch8.plist",
+  "method": 8,
+  "csize": 314,
+  "usize": 1056,
+  "lho": 12174091742
+ },
+ {
+  "name": "Firmware/Sumter/Yonkers,SysTopPatch9",
+  "method": 8,
+  "csize": 781,
+  "usize": 776,
+  "lho": 12174092148
+ },
+ {
+  "name": "Firmware/Sumter/Yonkers,SysTopPatch9.plist",
+  "method": 8,
+  "csize": 309,
+  "usize": 1052,
+  "lho": 12174093015
+ },
+ {
+  "name": "Firmware/Veridian/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12174093416
+ },
+ {
+  "name": "Firmware/Veridian/X2823/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12174093484
+ },
+ {
+  "name": "Firmware/Veridian/X2823/DigestMap.der",
+  "method": 8,
+  "csize": 1493,
+  "usize": 1536,
+  "lho": 12174093558
+ },
+ {
+  "name": "Firmware/Veridian/X2823/DigestMap.der.plist",
+  "method": 8,
+  "csize": 86,
+  "usize": 107,
+  "lho": 12174095138
+ },
+ {
+  "name": "Firmware/Veridian/X2823/FirmwareMap.plist",
+  "method": 8,
+  "csize": 131488,
+  "usize": 308160,
+  "lho": 12174095317
+ },
+ {
+  "name": "Firmware/Veridian/X2823/FirmwareMap.plist.plist",
+  "method": 8,
+  "csize": 95,
+  "usize": 111,
+  "lho": 12174226896
+ },
+ {
+  "name": "Firmware/WirelessPower/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12174227088
+ },
+ {
+  "name": "Firmware/WirelessPower/WirelessPower.d9x_d4y.im4p",
+  "method": 8,
+  "csize": 156090,
+  "usize": 234775,
+  "lho": 12174227161
+ },
+ {
+  "name": "Firmware/agx/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12174383350
+ },
+ {
+  "name": "Firmware/agx/armfw1_g17p.im4p",
+  "method": 8,
+  "csize": 846146,
+  "usize": 5688553,
+  "lho": 12174383413
+ },
+ {
+  "name": "Firmware/agx/armfw_g17p.im4p",
+  "method": 8,
+  "csize": 847028,
+  "usize": 5770313,
+  "lho": 12175229638
+ },
+ {
+  "name": "Firmware/all_flash/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12176076744
+ },
+ {
+  "name": "Firmware/all_flash/DeviceTree.d93ap.im4p",
+  "method": 8,
+  "csize": 67288,
+  "usize": 67281,
+  "lho": 12176076813
+ },
+ {
+  "name": "Firmware/all_flash/LLB.d93.RELEASE.im4p",
+  "method": 8,
+  "csize": 1712572,
+  "usize": 1719838,
+  "lho": 12176144191
+ },
+ {
+  "name": "Firmware/all_flash/applelogo@3x-style0~iphone.im4p",
+  "method": 8,
+  "csize": 13983,
+  "usize": 19197,
+  "lho": 12177856852
+ },
+ {
+  "name": "Firmware/all_flash/iBoot.d93.RELEASE.im4p",
+  "method": 8,
+  "csize": 1712420,
+  "usize": 1719348,
+  "lho": 12177870935
+ },
+ {
+  "name": "Firmware/all_flash/iBootData.d93.RELEASE.im4p",
+  "method": 8,
+  "csize": 30247,
+  "usize": 31263,
+  "lho": 12179583446
+ },
+ {
+  "name": "Firmware/all_flash/liquiddetect@2622~iphone-USBc-woven.im4p",
+  "method": 8,
+  "csize": 227859,
+  "usize": 1060458,
+  "lho": 12179613788
+ },
+ {
+  "name": "Firmware/all_flash/recoverymode@2622~iphone-USBc-woven.im4p",
+  "method": 8,
+  "csize": 1339662,
+  "usize": 2648359,
+  "lho": 12179841756
+ },
+ {
+  "name": "Firmware/all_flash/sep-firmware.d93.RELEASE.im4p",
+  "method": 8,
+  "csize": 7671969,
+  "usize": 7673931,
+  "lho": 12181181527
+ },
+ {
+  "name": "Firmware/all_flash/sep-firmware.d93.RELEASE.im4p.plist",
+  "method": 8,
+  "csize": 1028,
+  "usize": 2890,
+  "lho": 12188853594
+ },
+ {
+  "name": "Firmware/all_flash/sep-patches.d93.im4p",
+  "method": 8,
+  "csize": 20812,
+  "usize": 21136,
+  "lho": 12188854726
+ },
+ {
+  "name": "Firmware/all_flash/sep-patches.d93.im4p.plist",
+  "method": 8,
+  "csize": 413,
+  "usize": 1158,
+  "lho": 12188875627
+ },
+ {
+  "name": "Firmware/ane/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12188876135
+ },
+ {
+  "name": "Firmware/ane/h17_ane_fw_theia_d9x.im4p",
+  "method": 8,
+  "csize": 318977,
+  "usize": 1556505,
+  "lho": 12188876198
+ },
+ {
+  "name": "Firmware/ansf.t8140.release.im4p",
+  "method": 8,
+  "csize": 1290467,
+  "usize": 1292684,
+  "lho": 12189195263
+ },
+ {
+  "name": "Firmware/ave/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12190485812
+ },
+ {
+  "name": "Firmware/ave/AppleAVE2FW_H17.im4p",
+  "method": 8,
+  "csize": 668925,
+  "usize": 2748385,
+  "lho": 12190485875
+ },
+ {
+  "name": "Firmware/dcp/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12191154883
+ },
+ {
+  "name": "Firmware/dcp/t8140dcp.im4p",
+  "method": 8,
+  "csize": 2558876,
+  "usize": 2566114,
+  "lho": 12191154946
+ },
+ {
+  "name": "Firmware/dcp/t8140dcp_restore.im4p",
+  "method": 8,
+  "csize": 2553817,
+  "usize": 2561343,
+  "lho": 12193713898
+ },
+ {
+  "name": "Firmware/dfu/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12196267799
+ },
+ {
+  "name": "Firmware/dfu/iBEC.d93.RELEASE.im4p",
+  "method": 8,
+  "csize": 1712450,
+  "usize": 1719378,
+  "lho": 12196267862
+ },
+ {
+  "name": "Firmware/dfu/iBSS.d93.RELEASE.im4p",
+  "method": 8,
+  "csize": 1712572,
+  "usize": 1719838,
+  "lho": 12197980396
+ },
+ {
+  "name": "Firmware/embeddedaudioresources/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12199693052
+ },
+ {
+  "name": "Firmware/embeddedaudioresources/image4/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12199693134
+ },
+ {
+  "name": "Firmware/embeddedaudioresources/image4/d93-boot-chime.im4p",
+  "method": 8,
+  "csize": 401228,
+  "usize": 581793,
+  "lho": 12199693223
+ },
+ {
+  "name": "Firmware/image4/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12200094559
+ },
+ {
+  "name": "Firmware/image4/exclavecore_bundle.t8140.RELEASE.im4p",
+  "method": 8,
+  "csize": 11949627,
+  "usize": 32276714,
+  "lho": 12200094625
+ },
+ {
+  "name": "Firmware/image4/exclavecore_bundle.t8140.RELEASE.restore.im4p",
+  "method": 8,
+  "csize": 6894827,
+  "usize": 17842410,
+  "lho": 12212044355
+ },
+ {
+  "name": "Firmware/isp_bni/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12218939293
+ },
+ {
+  "name": "Firmware/isp_bni/adc-rheia-d9x.im4p",
+  "method": 8,
+  "csize": 10518441,
+  "usize": 29655067,
+  "lho": 12218939360
+ },
+ {
+  "name": "Firmware/pmc/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12229457886
+ },
+ {
+  "name": "Firmware/pmc/t8140pmcfw.im4p",
+  "method": 8,
+  "csize": 15099,
+  "usize": 23983,
+  "lho": 12229457949
+ },
+ {
+  "name": "Firmware/pmp/",
+  "method": 0,
+  "csize": 0,
+  "usize": 0,
+  "lho": 12229473126
+ },
+ {
+  "name": "Firmware/pmp/t8140pmp.im4p",
+  "method": 8,
+  "csize": 154201,
+  "usize": 626713,
+  "lho": 12229473189
+ },
+ {
+  "name": "Firmware/rans.t8140.release.im4p",
+  "method": 8,
+  "csize": 1290483,
+  "usize": 1292699,
+  "lho": 12229627466
+ },
+ {
+  "name": "Firmware/sptm.t8140.release.im4p",
+  "method": 8,
+  "csize": 209501,
+  "usize": 210093,
+  "lho": 12230918031
+ },
+ {
+  "name": "Firmware/txm.iphoneos.release.im4p",
+  "method": 8,
+  "csize": 223769,
+  "usize": 223827,
+  "lho": 12231127614
+ },
+ {
+  "name": "Firmware/vinyl_0a.plist",
+  "method": 8,
+  "csize": 1020,
+  "usize": 2515,
+  "lho": 12231351467
+ },
+ {
+  "name": "Firmware/vinyl_0a.vnlfw",
+  "method": 8,
+  "csize": 17366821,
+  "usize": 17388832,
+  "lho": 12231352560
+ },
+ {
+  "name": "Restore.plist",
+  "method": 8,
+  "csize": 442,
+  "usize": 1093,
+  "lho": 12248719454
+ },
+ {
+  "name": "RestoreVersion.plist",
+  "method": 8,
+  "csize": 232,
+  "usize": 388,
+  "lho": 12248719959
+ },
+ {
+  "name": "SystemVersion.plist",
+  "method": 8,
+  "csize": 278,
+  "usize": 492,
+  "lho": 12248720261
+ },
+ {
+  "name": "kernelcache.release.iphone17",
+  "method": 8,
+  "csize": 23424970,
+  "usize": 23444024,
+  "lho": 12248720608
+ }
+]

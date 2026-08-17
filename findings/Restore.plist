@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DeviceMap</key>
+	<array>
+		<dict>
+			<key>BDID</key>
+			<integer>12</integer>
+			<key>BoardConfig</key>
+			<string>d93ap</string>
+			<key>CPID</key>
+			<integer>33088</integer>
+			<key>Platform</key>
+			<string>t8140</string>
+			<key>SCEP</key>
+			<integer>0</integer>
+			<key>SDOM</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>ProductBuildVersion</key>
+	<string>24A5408d</string>
+	<key>ProductVersion</key>
+	<string>27.0</string>
+	<key>SupportedProductTypeIDs</key>
+	<dict>
+		<key>DFU</key>
+		<array>
+			<integer>201359680</integer>
+		</array>
+		<key>Recovery</key>
+		<array>
+			<integer>201359680</integer>
+		</array>
+	</dict>
+	<key>SupportedProductTypes</key>
+	<array>
+		<string>iPhone17,1</string>
+	</array>
+	<key>SystemRestoreImageFileSystems</key>
+	<dict>
+		<key>094-12894-174.dmg.aea</key>
+		<string>APFS</string>
+		<key>094-14934-126.dmg.aea</key>
+		<string>APFS</string>
+	</dict>
+</dict>
+</plist>
